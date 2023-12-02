@@ -6,9 +6,12 @@ import LightBg from "../../Components/LightBg";
 import HeaderOne from "../../Components/HeaderOne";
 import Footer from "../../Components/Footer";
 
+import ScrollToTopOnMount from "../../Components/KeepTopPosition";
+
 export default function CaseStudy() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+      <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
       <div className="case-study">

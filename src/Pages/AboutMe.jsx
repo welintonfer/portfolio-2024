@@ -28,6 +28,8 @@ import LightBg from "../Components/LightBg";
 import HeaderOne from "../Components/HeaderOne";
 import Footer from "../Components/Footer";
 
+import ScrollToTopOnMount from "../Components/KeepTopPosition";
+
 const skills = [
   {
     id: 1,
@@ -366,6 +368,7 @@ const resume = [
 export default function AboutMe() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+      <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
       <section className="about-me-hero">

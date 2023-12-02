@@ -19,6 +19,8 @@ import img09 from "../../assets/img/eir/vote-options.png";
 import img10 from "../../assets/img/eir/streamlined-porting-flow.png";
 import img11 from "../../assets/img/eir/material-ui-eir.png";
 
+import ScrollToTopOnMount from "../../Components/KeepTopPosition";
+
 export default function Eir() {
   console.log("Renderizando Helen...");
 
@@ -51,6 +53,7 @@ export default function Eir() {
 
   return (
     <>
+      <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
       <main className="case-study-single">

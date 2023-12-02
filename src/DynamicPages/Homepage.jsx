@@ -6,12 +6,14 @@ import MyProcess from "../Components/MyProcess";
 import CaseStudy from "../Components/CaseStudy";
 import ContactLabel from "../Components/ContactLabel";
 import Footer from "../Components/Footer";
+import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 
 import projectsData from "../data/projectsData";
 
 export default function Homepage() {
   return (
     <>
+      <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
       <Hero />

@@ -1,9 +1,11 @@
 import { useEffect } from "react";
 
-export default function KeepTopPosition() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+const KeepTopPosition = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
+      return null;
+};
 
-  return null;
-}
+export default KeepTopPosition;

@@ -14,11 +14,8 @@ import img04 from "../../assets/img/helen/checkout@2x.png";
 import img05 from "../../assets/img/helen/ui01@2x.png";
 import img06 from "../../assets/img/helen/ui02@2x.png";
 import img07 from "../../assets/img/helen/ui03@2x.png";
-// deletar abaixo
-import img08 from "../../assets/img/eir/bottom-navigation.png";
-import img09 from "../../assets/img/eir/vote-options.png";
-import img10 from "../../assets/img/eir/streamlined-porting-flow.png";
-import img11 from "../../assets/img/eir/material-ui-eir.png";
+
+import ScrollToTopOnMount from "../../Components/KeepTopPosition";
 
 export default function HelenTurkington() {
   console.log("Renderizando Helen...");
@@ -52,6 +49,7 @@ export default function HelenTurkington() {
 
   return (
     <>
+      <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
       <main className="case-study-single">

@@ -1,6 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import KeepTopPosition from "../Components/KeepTopPosition";
 
 import Homepage from "../Pages/Homepage";
 import AboutMe from "../Pages/AboutMe";
@@ -11,7 +10,6 @@ export default function AppRouter() {
 
   return (
     <>
-      <KeepTopPosition />
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Homepage />} />
