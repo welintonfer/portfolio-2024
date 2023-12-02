@@ -2425,7 +2425,8 @@ header {
         display: flex;
         align-items: center; }
         header .desktop .nav-bar .waLogo img {
-          cursor: pointer; }
+          cursor: pointer;
+          width: 60px; }
       header .desktop .nav-bar .nav-list {
         display: flex;
         align-items: center; }
