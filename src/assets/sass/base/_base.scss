@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; é a melhor pratica coloca-lo na Body e usar box-sizing: inherit; no Root*/
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+}

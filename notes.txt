@@ -1,0 +1,34 @@
+Terminal: 
+
+Comerçar o servidor:  npm run dev
+Compilar sass: npm run compile:sass    
+
+6 May - 
+
+
+
+
+// import Header from "./Components/Header";
+import HeaderOne from "./Components/HeaderOne";
+// import PlayGround from "./Components/PlayGround";
+// import bg from "./assets/img/texture.png";
+
+export default function App() {
+  return (
+    <>
+      <div className="circle-cover"></div>
+      <div className="circles-bg">
+        {/* <div className="circles-bg" style={{ background: `url(${bg}), repeat` }}> */}
+
+        <div className="bg-1"></div>
+        <div className="bg-2"></div>
+        <div className="bg-3"></div>
+      </div>
+
+      {/* <Header /> */}
+      <HeaderOne />
+
+      {/* <PlayGround /> */}
+    </>
+  );
+}
