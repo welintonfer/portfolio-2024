@@ -28,7 +28,6 @@ export default function Homepage() {
           tag={project.tag}
           overview={project.overview}
           caseStudyCover={project.caseStudyCover}
-          imgMobile={project.imgMobile}
         />
       ))}
 

@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
+import eirMobile from "../assets/img/case-study-front/m-eir-mobile@2x.png";
 
 export default function CaseStudy(props) {
-  const { showTitle, title, caseStudyCover, imgMobile, overview, tag, linkTo } =
-    props;
+  const {
+    showTitle,
+    title,
+    caseStudyCover,
+    caseStudyCoverMobile,
+    overview,
+    tag,
+    linkTo,
+  } = props;
 
   return (
     <>
@@ -38,7 +46,7 @@ export default function CaseStudy(props) {
                   <img src={caseStudyCover} alt={title} />
                 </div>
                 <div className="img-content-m">
-                  <img src={imgMobile} alt={title} />
+                  <img src={eirMobile} alt={title} />
                 </div>
               </div>
             </li>

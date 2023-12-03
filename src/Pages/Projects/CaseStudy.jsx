@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
-
 import { motion } from "framer-motion";
 
 import LightBg from "../../Components/LightBg";
 import HeaderOne from "../../Components/HeaderOne";
 import ContactLabel from "../../Components/ContactLabel";
 import Footer from "../../Components/Footer";
+
+import eirDeskCover from "../../assets/img/case-study-front/eir-case-cover@2x.png";
+import eirMobileCover from "../../assets/img/case-study-front/eir-mobile-cover@2x.png";
+import helenDeskCover from "../../assets/img/case-study-front/helen-case-cover@2x.png";
+import helenMobileCover from "../../assets/img/case-study-front/helen-mobile-cover@2x.png";
 
 import ScrollToTopOnMount from "../../Components/KeepTopPosition";
 
@@ -55,10 +59,10 @@ export default function CaseStudy() {
                   <Link to="/projects/eir">Read Case Study</Link>
                 </div>
                 <div className="img-content">
-                  <img
-                    src="../src/assets/img/case-study-front/eir-case-cover@2x.png"
-                    alt="Re-Design For The App Made Easy"
-                  />
+                  <img src={eirDeskCover} alt="Eir" />
+                </div>
+                <div className="img-content-m">
+                  <img src={eirMobileCover} alt="Eir" />
                 </div>
               </div>
             </li>
@@ -92,10 +96,10 @@ export default function CaseStudy() {
                   <Link to="/projects/helen-turkington">Read Case Study</Link>
                 </div>
                 <div className="img-content">
-                  <img
-                    src="../src/assets/img/case-study-front/helen-case-cover@2x.png"
-                    alt="Re-Design For The App Made Easy"
-                  />
+                  <img src={helenDeskCover} alt="Helen Turkington" />
+                </div>
+                <div className="img-content-m">
+                  <img src={helenMobileCover} alt="Helen Turkington" />
                 </div>
               </div>
             </li>

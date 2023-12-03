@@ -808,7 +808,7 @@ body.no-scroll {
               align-items: center; }
               .case-study article ul li .project .img-content-m img {
                 width: 100%;
-                display: none; } }
+                display: block; } }
 
 @media (min-width: 561px) and (max-width: 768px) {
   .case-study {
