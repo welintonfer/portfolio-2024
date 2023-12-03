@@ -79,8 +79,11 @@ export default function CaseStudy(props) {
                     <p>{overview}</p>
                   </div>
                   {/* Use o Link diretamente dentro do componente CaseStudy */}
-                  <Link to={linkTo}>
+                  {/* <Link to={linkTo}>
                     <button>Read Case Study</button>
+                  </Link> */}
+                  <Link className="btn-case-study-single" to="/projects/eir">
+                    Read Case Study
                   </Link>
                 </div>
                 <div className="img-content">
@@ -89,7 +92,12 @@ export default function CaseStudy(props) {
               </div>
             </li>
           </ul>
-          {showTitle && <button>See all projects</button>}
+          {/* {showTitle && <button>See all projects</button>}  */}
+          {showTitle && (
+            <Link className="btn-case-study" to="/projects">
+              See all projects
+            </Link>
+          )}
         </article>
       </section>
     </>

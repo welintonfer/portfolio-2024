@@ -608,6 +608,31 @@ body.no-scroll {
             align-items: flex-start;
             gap: 25px;
             flex-shrink: 0; }
+            .case-study article ul li .project .content a,
+            .case-study article ul li .project .content .btn-case-study-sigle {
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 28px;
+              color: #0f0f0f;
+              display: inline-block;
+              text-decoration: none;
+              border-bottom: 2px solid #0f0f0f;
+              padding: 0.7rem 2.3rem;
+              transition: all 0.2s;
+              border-radius: 3.2rem;
+              border: 0.2rem solid #0f0f0f;
+              background: #f1fea1;
+              box-shadow: 1px 1px 0px 0px #0f0f0f, 2px 2px 0px 0px #0f0f0f, 3px 3px 0px 0px #0f0f0f; }
+              .case-study article ul li .project .content a:hover,
+              .case-study article ul li .project .content .btn-case-study-sigle:hover {
+                background-color: #f1fea1;
+                color: #0f0f0f;
+                box-shadow: 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f;
+                transform: translateY(2px); }
+              .case-study article ul li .project .content a:active,
+              .case-study article ul li .project .content .btn-case-study-sigle:active {
+                transform: translateY(0px); }
             .case-study article ul li .project .content .tags {
               display: flex;
               flex-direction: row;
@@ -645,7 +670,8 @@ body.no-scroll {
                 font-weight: 400;
                 line-height: 28px;
                 opacity: 0.6; }
-          .case-study article ul li .project button {
+          .case-study article ul li .project button,
+          .case-study article ul li .project .btn-case-study-sigle {
             font-size: 1.6rem;
             font-style: normal;
             font-weight: 700;
@@ -660,12 +686,14 @@ body.no-scroll {
             border: 0.2rem solid #0f0f0f;
             background: #f1fea1;
             box-shadow: 1px 1px 0px 0px #0f0f0f, 2px 2px 0px 0px #0f0f0f, 3px 3px 0px 0px #0f0f0f; }
-            .case-study article ul li .project button:hover {
+            .case-study article ul li .project button:hover,
+            .case-study article ul li .project .btn-case-study-sigle:hover {
               background-color: #f1fea1;
               color: #0f0f0f;
               box-shadow: 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f;
               transform: translateY(2px); }
-            .case-study article ul li .project button:active {
+            .case-study article ul li .project button:active,
+            .case-study article ul li .project .btn-case-study-sigle:active {
               transform: translateY(0px); }
           .case-study article ul li .project .img-content {
             display: inline-flex;
@@ -674,7 +702,8 @@ body.no-scroll {
             align-items: center; }
             .case-study article ul li .project .img-content img {
               width: 100%; }
-    .case-study article button {
+    .case-study article button,
+    .case-study article .btn-case-study {
       text-align: center;
       font-size: 1.6rem;
       font-style: normal;
@@ -690,12 +719,14 @@ body.no-scroll {
       border: 0.2rem solid #0f0f0f;
       background: #fff;
       box-shadow: 1px 1px 0px 0px #0f0f0f, 2px 2px 0px 0px #0f0f0f, 3px 3px 0px 0px #0f0f0f; }
-      .case-study article button:hover {
+      .case-study article button:hover,
+      .case-study article .btn-case-study:hover {
         background-color: #f1fea1;
         color: #0f0f0f;
         box-shadow: 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f, 1px 1px 0px 0px #0f0f0f;
         transform: translateY(2px); }
-      .case-study article button:active {
+      .case-study article button:active,
+      .case-study article .btn-case-study:active {
         transform: translateY(0px); }
 
 @media (min-width: 1025px) and (max-width: 1199px) {

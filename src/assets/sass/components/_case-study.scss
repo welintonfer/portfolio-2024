@@ -106,6 +106,34 @@
             align-items: flex-start;
             gap: 25px;
             flex-shrink: 0;
+            a,
+            .btn-case-study-sigle {
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 28px;
+              color: $smoky-black;
+              display: inline-block;
+              text-decoration: none;
+              border-bottom: 2px solid $smoky-black;
+              padding: 0.7rem 2.3rem;
+              transition: all 0.2s;
+              border-radius: 3.2rem;
+              border: 0.2rem solid $smoky-black;
+              background: $calamansi;
+              box-shadow: 1px 1px 0px 0px $smoky-black,
+                2px 2px 0px 0px $smoky-black, 3px 3px 0px 0px $smoky-black;
+              &:hover {
+                background-color: $calamansi;
+                color: $smoky-black;
+                box-shadow: 1px 1px 0px 0px $smoky-black,
+                  1px 1px 0px 0px $smoky-black, 1px 1px 0px 0px $smoky-black;
+                transform: translateY(2px);
+              }
+              &:active {
+                transform: translateY(0px);
+              }
+            }
             .h3 {
             }
             .tags {
@@ -153,7 +181,8 @@
               /* 175% */
             }
           }
-          button {
+          button,
+          .btn-case-study-sigle {
             font-size: 1.6rem;
             font-style: normal;
             font-weight: 700;
@@ -192,7 +221,8 @@
         }
       }
     }
-    button {
+    button,
+    .btn-case-study {
       text-align: center;
       font-size: 1.6rem;
       font-style: normal;

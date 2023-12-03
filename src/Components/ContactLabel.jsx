@@ -6,10 +6,14 @@ import globo from "../assets/img/graphics/globo.svg";
 import plus from "../assets/img/graphics/plus.svg";
 import star from "../assets/img/graphics/star.svg";
 
-export default function ContactLabel() {
+const ContactLabel = (props) => {
   return (
     <>
-      <section className="contact-label" id="lets-talk">
+      <section
+        id="contactSection"
+        ref={props.letstalk}
+        className="contact-label"
+      >
         <article>
           <img className="arrow" src={arrow} alt="arrow" />
           <img className="dots" src={dots} alt="dots" />
@@ -48,4 +52,6 @@ export default function ContactLabel() {
       </section>
     </>
   );
-}
+};
+
+export default ContactLabel;

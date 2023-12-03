@@ -31,7 +31,7 @@ export default function Homepage() {
         />
       ))}
 
-      <ContactLabel />
+      <ContactLabel letstalk="contactRef" />
       <Footer />
     </>
   );

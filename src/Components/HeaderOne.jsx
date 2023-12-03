@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import waLogo from "../assets/img/wa-logo.svg";
 // import ToggleMode from "./toggleMode";
 import HamburgerToggle from "./HamburgerToggle";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 export default function HeaderOne() {
   const [scrolled, setScrolled] = useState(false);
@@ -44,32 +45,32 @@ export default function HeaderOne() {
           {/* Use o arquivo SVG diretamente como uma imagem */}
 
           <nav className="nav-bar">
-            <Link className="waLogo" to="/">
+            <RouterLink className="waLogo" to="/">
               <img src={waLogo} alt="Wellington Alexander" />
-            </Link>
+            </RouterLink>
             <div className="nav-list">
               <ul>
                 <li className="nav-item">
-                  <Link className="item-link" to="/about-me">
+                  <RouterLink className="item-link" to="/about-me">
                     About me
-                  </Link>
+                  </RouterLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="item-link" to="/#what-i-do">
                     What I do
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
-                  <Link className="item-link" to="/projects">
+                  <RouterLink className="item-link" to="/projects">
                     Projects
-                  </Link>
+                  </RouterLink>
                 </li>
               </ul>
             </div>
             <div className="ctas">
-              <Link to="#lets-talk" className="cta">
+              <ScrollLink className="cta">
                 <button>{`Let's talk`}</button>
-              </Link>
+              </ScrollLink>
             </div>
           </nav>
 
@@ -79,25 +80,25 @@ export default function HeaderOne() {
           <div className="mobile-menu">
             <ul>
               <li className="nav-item">
-                <Link className="item-link" to="/about-me">
+                <RouterLink className="item-link" to="/about-me">
                   About me
-                </Link>
+                </RouterLink>
               </li>
               <li className="nav-item">
-                <Link className="item-link" to="/#what-i-do">
+                <RouterLink className="item-link" to="/#what-i-do">
                   What I do
-                </Link>
+                </RouterLink>
               </li>
               <li className="nav-item">
-                <Link className="item-link" to="/projects">
+                <RouterLink className="item-link" to="/projects">
                   Projects
-                </Link>
+                </RouterLink>
               </li>
             </ul>
             <div className="ctas">
-              <Link to="#lets-talk" className="cta">
+              <ScrollLink className="cta">
                 <button>{`Let's talk`}</button>
-              </Link>
+              </ScrollLink>
             </div>
           </div>
         </div>
