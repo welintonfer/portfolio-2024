@@ -1,9 +1,12 @@
+import caseStudyCover from "../assets/img/case-study-front/eir-case-cover@2x.png";
+import imgMobile from "../assets/img/case-study-front/m-eir-mobile@2x.png";
+
 const projectsData = [
   {
     id: 1,
     title: `Eir's UX Design: Embracing SaaS at version 1.0`,
-    caseStudyCover: "../src/assets/img/case-study-front/eir-case-cover@2x.png",
-    imgMobile: "../src/assets/img/case-study-front/m-eir-mobile@2x.png",
+    caseStudyCover: caseStudyCover,
+    imgMobile: imgMobile,
     overview:
       "Welcome to Eir's user-centric innovation. I'm Wellington Alexander, your Lead Product Designer, and we're on a transformative journey.",
     process: "Design process for Project 1",
