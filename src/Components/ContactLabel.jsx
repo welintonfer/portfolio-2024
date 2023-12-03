@@ -25,13 +25,9 @@ const ContactLabel = () => {
             </div>
           </div>
           <div className="content">
-            <h2 className="h2">Craft Your Dream Project with Me 👋</h2>
+            <h2 className="h2">Crafting Experiences That Captivate ✨</h2>
             <p>
-              {`Absolutely thrilled to connect with you! Whether you're eager to
-              collaborate or simply have a burning question, don't hesitate to
-              drop me a message. I'm here to transform your brilliant ideas into
-              extraordinary digital experiences. Can't wait to chat with you
-              soon! Cheers! `}
+              {`Experienced UX/UI Designer with 13+ years, specializing in product design, UI/UX, and front-end development. Proven track record of impactful projects with 20-45% engagement rates. Let's innovate together!`}
             </p>
 
             <ContactLabelInput />

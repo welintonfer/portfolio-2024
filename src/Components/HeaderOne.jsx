@@ -74,7 +74,7 @@ export default function HeaderOne() {
                 duration={500}
                 className="cta"
               >
-                <button>{`Let's talk`}</button>
+                <button>{`Hire me`}</button>
               </ScrollLink>
             </div>
           </nav>
@@ -92,11 +92,11 @@ export default function HeaderOne() {
                   About me
                 </RouterLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <RouterLink className="item-link" to="/#what-i-do">
                   What I do
                 </RouterLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <RouterLink className="item-link" to="/projects">
                   Projects
@@ -110,7 +110,7 @@ export default function HeaderOne() {
                 duration={500}
                 className="cta"
               >
-                <button>{`Let's talk`}</button>
+                <button>{`Hire me`}</button>
               </ScrollLink>
             </div>
           </div>
