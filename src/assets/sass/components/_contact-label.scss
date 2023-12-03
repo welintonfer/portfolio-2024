@@ -124,7 +124,7 @@
         .icon-mail {
           display: flex;
           height: 50px;
-          padding: 21px 28px;
+          padding: 21px 14px;
           align-items: center;
           gap: 10px;
           border-radius: 10px 0px 0px 10px;
@@ -142,15 +142,15 @@
           line-height: 28px; /* 175% */
         }
         .mail {
-          width: 276px;
+          min-width: 246px;
           display: flex;
           height: 50px;
-          padding: 21px 28px 21px 0px;
+          padding: 21px -4px;
           align-items: center;
           gap: 10px;
-          border-radius: 0px 10px 10px 0px;
+          border-radius: 0px;
           border-top: 3px solid $smoky-black;
-          border-right: 3px solid $smoky-black;
+          border-right: none;
           border-bottom: 3px solid $smoky-black;
           border-left: none;
           background: $color-white;
@@ -161,6 +161,28 @@
           font-style: normal;
           font-weight: 600;
           line-height: 28px; /* 175% */
+        }
+        .input-btn-copy {
+          .icon-copy {
+            display: flex;
+            height: 50px;
+            padding: 21px 14px;
+            align-items: center;
+            gap: 10px;
+            border-radius: 0px 10px 10px 0px;
+            border-top: 3px solid $smoky-black;
+            border-right: 3px solid $smoky-black;
+            border-bottom: 3px solid $smoky-black;
+            border-left: none;
+            background: $color-white;
+            color: $smoky-black;
+            text-align: center;
+            font-family: Inter;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; /* 175% */
+          }
         }
       }
     }

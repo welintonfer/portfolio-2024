@@ -1367,7 +1367,7 @@ body.no-scroll {
         .contact-label article .content .box-mail .icon-mail {
           display: flex;
           height: 50px;
-          padding: 21px 28px;
+          padding: 21px 14px;
           align-items: center;
           gap: 10px;
           border-radius: 10px 0px 0px 10px;
@@ -1385,10 +1385,30 @@ body.no-scroll {
           line-height: 28px;
           /* 175% */ }
         .contact-label article .content .box-mail .mail {
-          width: 276px;
+          min-width: 246px;
           display: flex;
           height: 50px;
-          padding: 21px 28px 21px 0px;
+          padding: 21px -4px;
+          align-items: center;
+          gap: 10px;
+          border-radius: 0px;
+          border-top: 3px solid #0f0f0f;
+          border-right: none;
+          border-bottom: 3px solid #0f0f0f;
+          border-left: none;
+          background: #fff;
+          color: #0f0f0f;
+          text-align: center;
+          font-family: Inter;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 28px;
+          /* 175% */ }
+        .contact-label article .content .box-mail .input-btn-copy .icon-copy {
+          display: flex;
+          height: 50px;
+          padding: 21px 14px;
           align-items: center;
           gap: 10px;
           border-radius: 0px 10px 10px 0px;

@@ -10,6 +10,7 @@ export default function AboutMe() {
       <LightBg />
       <HeaderOne />
       <h1>About Me</h1>
+
       <Footer />
     </>
   );

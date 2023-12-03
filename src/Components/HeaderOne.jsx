@@ -3,7 +3,7 @@ import waLogo from "../assets/img/wa-logo.svg";
 // import ToggleMode from "./toggleMode";
 import HamburgerToggle from "./HamburgerToggle";
 import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function HeaderOne() {
   const [scrolled, setScrolled] = useState(false);
@@ -68,7 +68,12 @@ export default function HeaderOne() {
               </ul>
             </div>
             <div className="ctas">
-              <ScrollLink className="cta">
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cta"
+              >
                 <button>{`Let's talk`}</button>
               </ScrollLink>
             </div>
@@ -76,6 +81,9 @@ export default function HeaderOne() {
 
           <HamburgerToggle onToggle={toggleMobileMenu} />
         </div>
+
+        {/* Mobile below */}
+
         <div className={` ${isMobileMenuOpen ? "open" : "menu"}`}>
           <div className="mobile-menu">
             <ul>
@@ -96,7 +104,12 @@ export default function HeaderOne() {
               </li>
             </ul>
             <div className="ctas">
-              <ScrollLink className="cta">
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cta"
+              >
                 <button>{`Let's talk`}</button>
               </ScrollLink>
             </div>

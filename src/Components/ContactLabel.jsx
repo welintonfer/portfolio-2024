@@ -5,15 +5,12 @@ import draft from "../assets/img/graphics/draft.svg";
 import globo from "../assets/img/graphics/globo.svg";
 import plus from "../assets/img/graphics/plus.svg";
 import star from "../assets/img/graphics/star.svg";
+import ContactLabelInput from "./ContactLabelInput";
 
-const ContactLabel = (props) => {
+const ContactLabel = () => {
   return (
     <>
-      <section
-        id="contactSection"
-        ref={props.letstalk}
-        className="contact-label"
-      >
+      <section id="contact" className="contact-label">
         <article>
           <img className="arrow" src={arrow} alt="arrow" />
           <img className="dots" src={dots} alt="dots" />
@@ -37,16 +34,8 @@ const ContactLabel = (props) => {
               extraordinary digital experiences. Can't wait to chat with you
               soon! Cheers! `}
             </p>
-            <div className="box-mail">
-              <div className="icon-mail">
-                <img src={mail} alt="Email" />
-              </div>
-              <input
-                className="mail"
-                type="text"
-                value={`portfolio.fernandes@gmail.com`}
-              />
-            </div>
+
+            <ContactLabelInput />
           </div>
         </article>
       </section>

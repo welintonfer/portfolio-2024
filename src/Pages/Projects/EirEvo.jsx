@@ -4,6 +4,7 @@ import ai from "../../assets/img/skills/ai.svg";
 
 import LightBg from "../../Components/LightBg";
 import HeaderOne from "../../Components/HeaderOne";
+import ContactLabel from "../../Components/ContactLabel";
 import Footer from "../../Components/Footer";
 
 import logo from "../../assets/img/eir/eir-logo@2x.png";
@@ -573,7 +574,7 @@ export default function EirEvo() {
           </article>
         </section>
       </main>
-
+      <ContactLabel />
       <Footer />
     </>
   );

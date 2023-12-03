@@ -26,6 +26,7 @@ import unibrasilLogo from "../assets/img/about-me/unibrasil.svg";
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
 import HeaderOne from "../Components/HeaderOne";
+import ContactLabel from "../Components/ContactLabel";
 import Footer from "../Components/Footer";
 
 import ScrollToTopOnMount from "../Components/KeepTopPosition";
@@ -481,6 +482,7 @@ export default function AboutMe() {
           ))}
         </ul>
       </main>
+      <ContactLabel />
       <Footer />
     </motion.div>
   );

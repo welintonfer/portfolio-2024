@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import LightBg from "../../Components/LightBg";
 import HeaderOne from "../../Components/HeaderOne";
+import ContactLabel from "../../Components/ContactLabel";
 import Footer from "../../Components/Footer";
 
 import ScrollToTopOnMount from "../../Components/KeepTopPosition";
@@ -96,6 +97,7 @@ export default function CaseStudy() {
           </ul>
         </article>
       </div>
+      <ContactLabel />
       <Footer />
     </motion.div>
   );
