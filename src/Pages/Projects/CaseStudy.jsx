@@ -10,6 +10,8 @@ import eirDeskCover from "../../assets/img/case-study-front/eir-case-cover@2x.pn
 import eirMobileCover from "../../assets/img/case-study-front/eir-mobile-cover@2x.png";
 import helenDeskCover from "../../assets/img/case-study-front/helen-case-cover@2x.png";
 import helenMobileCover from "../../assets/img/case-study-front/helen-mobile-cover@2x.png";
+import europcaDesktopCover from "../../assets/img/case-study-front/europcar-desktop-cover@2x.png";
+import europcaMobileCover from "../../assets/img/case-study-front/europcar-mobile-cover@2x.png";
 
 import ScrollToTopOnMount from "../../Components/KeepTopPosition";
 
@@ -100,6 +102,43 @@ export default function CaseStudy() {
                 </div>
                 <div className="img-content-m">
                   <img src={helenMobileCover} alt="Helen Turkington" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="top-bar">
+                <div className="left-buttons">
+                  <div className="red"></div>
+                  <div className="yellow"></div>
+                  <div className="green"></div>
+                </div>
+              </div>
+              <div className="project">
+                <div className="content">
+                  <h3 className="h3">Europcar - Upcoming case study</h3>
+                  <ul className="tags">
+                    <li className="tag">
+                      <span className="font">Research</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">App</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">Prototype</span>
+                    </li>
+                  </ul>
+                  <div className="description">
+                    <p>
+                      {`Revolutionizing car rentals during the pandemic, I designed an app for Europcar, enabling seamless, contactless bookings and direct car collection. Stay tuned for the upcoming case study!`}
+                    </p>
+                  </div>
+                  {/* <Link to="/projects/europcar">Read Case Study</Link> */}
+                </div>
+                <div className="img-content">
+                  <img src={europcaDesktopCover} alt="Europcar" />
+                </div>
+                <div className="img-content-m">
+                  <img src={europcaMobileCover} alt="Europcar" />
                 </div>
               </div>
             </li>
