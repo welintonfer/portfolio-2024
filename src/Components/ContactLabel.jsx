@@ -1,4 +1,3 @@
-import mail from "../assets/img/mailbox.svg";
 import arrow from "../assets/img/graphics/arrow.svg";
 import dots from "../assets/img/graphics/dots.svg";
 import draft from "../assets/img/graphics/draft.svg";

@@ -36,7 +36,13 @@ export default function CaseStudy() {
                   <h3 className="h3">My Eir</h3>
                   <ul className="tags">
                     <li className="tag">
-                      <span className="font">React</span>
+                      <span className="font">Research</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">Wireframe</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">Prototype</span>
                     </li>
                   </ul>
                   <div className="description">
@@ -46,13 +52,11 @@ export default function CaseStudy() {
                     your Lead Product Designer`}
                     </p>
                   </div>
-                  <Link to="/projects/eir">
-                    <button>Read Case Study</button>
-                  </Link>
+                  <Link to="/projects/eir">Read Case Study</Link>
                 </div>
                 <div className="img-content">
                   <img
-                    src="../src/assets/img/case-study-front/case.png"
+                    src="../src/assets/img/case-study-front/eir-case-cover@2x.png"
                     alt="Re-Design For The App Made Easy"
                   />
                 </div>
@@ -71,23 +75,25 @@ export default function CaseStudy() {
                   <h3 className="h3">Helen Turkington</h3>
                   <ul className="tags">
                     <li className="tag">
-                      <span className="font">React</span>
+                      <span className="font">Research</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">Wireframe</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">Prototype</span>
                     </li>
                   </ul>
                   <div className="description">
                     <p>
-                      {`Eir's UX Evolution: Embracing SaaS at version 1.0. Welcome
-                    to Eir's user-centric innovation. I'm Wellington Alexander,
-                    your Lead Product Designer`}
+                      {`UX Visual brand design. It has been a great honour to collaborate with Helen Turkington, recognised as one of Ireland's leading interior designers.`}
                     </p>
                   </div>
-                  <Link to="/projects/helen-turkington">
-                    <button>Read Case Study</button>
-                  </Link>
+                  <Link to="/projects/helen-turkington">Read Case Study</Link>
                 </div>
                 <div className="img-content">
                   <img
-                    src="../src/assets/img/case-study-front/case.png"
+                    src="../src/assets/img/case-study-front/helen-case-cover@2x.png"
                     alt="Re-Design For The App Made Easy"
                   />
                 </div>

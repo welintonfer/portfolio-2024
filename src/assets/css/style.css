@@ -594,11 +594,23 @@ body.no-scroll {
           display: flex;
           width: 100%;
           height: 424px;
-          padding: 24px 24px 0px 24px;
-          gap: 56px; }
+          padding: 0px 0px 0px 24px;
+          overflow: hidden; }
+          .case-study article ul li .project .content {
+            margin-top: 24px; }
           .case-study article ul li .project .content,
           .case-study article ul li .project .img-content {
+            display: block;
             flex: 1 0 0; }
+            .case-study article ul li .project .content img,
+            .case-study article ul li .project .img-content img {
+              display: block; }
+          .case-study article ul li .project .img-content-m {
+            flex: 1 0 0;
+            display: none; }
+            .case-study article ul li .project .img-content-m img {
+              width: 100%;
+              display: none; }
           .case-study article ul li .project .content {
             width: auto;
             display: flex;
@@ -770,9 +782,12 @@ body.no-scroll {
             width: 100%;
             height: auto;
             padding: 15px 15px 0px 15px; }
-            .case-study article ul li .project .content,
-            .case-study article ul li .project .img-content {
-              width: 100%; }
+            .case-study article ul li .project .content img,
+            .case-study article ul li .project .img-content img {
+              display: none; }
+            .case-study article ul li .project .img-content-m img {
+              width: 100%;
+              display: block; }
             .case-study article ul li .project .content {
               width: 100%;
               display: flex;
@@ -784,14 +799,16 @@ body.no-scroll {
               .case-study article ul li .project .content .tags {
                 width: auto;
                 gap: 24px; }
-            .case-study article ul li .project .img-content {
+            .case-study article ul li .project .img-content img {
+              display: none; }
+            .case-study article ul li .project .img-content-m {
               display: inline-flex;
               flex-direction: column;
               justify-content: flex-end;
               align-items: center; }
-              .case-study article ul li .project .img-content img {
+              .case-study article ul li .project .img-content-m img {
                 width: 100%;
-                display: block; } }
+                display: none; } }
 
 @media (min-width: 561px) and (max-width: 768px) {
   .case-study {
