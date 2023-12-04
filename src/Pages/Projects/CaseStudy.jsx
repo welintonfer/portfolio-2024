@@ -10,6 +10,8 @@ import eirDeskCover from "../../assets/img/case-study-front/eir-case-cover@2x.pn
 import eirMobileCover from "../../assets/img/case-study-front/eir-mobile-cover@2x.png";
 import helenDeskCover from "../../assets/img/case-study-front/helen-case-cover@2x.png";
 import helenMobileCover from "../../assets/img/case-study-front/helen-mobile-cover@2x.png";
+import habitusDesktopCover from "../../assets/img/habitus/habitus-desktop-cover@2x.png";
+import habitusMobileCover from "../../assets/img//habitus/habitus-mobile-cover@2x.png";
 import europcaDesktopCover from "../../assets/img/case-study-front/europcar-desktop-cover@2x.png";
 import europcaMobileCover from "../../assets/img/case-study-front/europcar-mobile-cover@2x.png";
 
@@ -115,6 +117,40 @@ export default function CaseStudy() {
               </div>
               <div className="project">
                 <div className="content">
+                  <h3 className="h3">Habitus Health - UX Audit</h3>
+                  <ul className="tags">
+                    <li className="tag">
+                      <span className="font">UX Audit</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">App</span>
+                    </li>
+                  </ul>
+                  <div className="description">
+                    <p>
+                      {`For an Applications site like the Habitushealth, a good user experience is crucial to attracting new customers and creating loyal advocates for the future.`}
+                    </p>
+                  </div>
+                  <Link to="/projects/habitus-health">Read Case Study</Link>
+                </div>
+                <div className="img-content">
+                  <img src={habitusDesktopCover} alt="Habitus Health" />
+                </div>
+                <div className="img-content-m">
+                  <img src={habitusMobileCover} alt="Habitus Health" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="top-bar">
+                <div className="left-buttons">
+                  <div className="red"></div>
+                  <div className="yellow"></div>
+                  <div className="green"></div>
+                </div>
+              </div>
+              <div className="project">
+                <div className="content">
                   <h3 className="h3">Europcar - Upcoming case study</h3>
                   <ul className="tags">
                     <li className="tag">
@@ -142,6 +178,7 @@ export default function CaseStudy() {
                 </div>
               </div>
             </li>
+
             {/* Adicione mais itens conforme necessário */}
           </ul>
         </article>

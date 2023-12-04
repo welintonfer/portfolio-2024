@@ -4,6 +4,7 @@ import CaseStudy from "./Projects/CaseStudy";
 import Eir from "./Projects/Eir";
 import EirEvo from "./Projects/EirEvo";
 import HelenTurkington from "./Projects/HelenTurkington";
+import HabitusHealth from "./Projects/HabitusHealth";
 
 export default function Projects() {
   return (
@@ -12,6 +13,7 @@ export default function Projects() {
       <Route path="/eir" element={<Eir />} />
       <Route path="/helen-turkington" element={<HelenTurkington />} />
       <Route path="/eirevo" element={<EirEvo />} />
+      <Route path="/habitus-health" element={<HabitusHealth />} />
     </Routes>
   );
 }
