@@ -20,6 +20,8 @@ import img09 from "../../assets/img/eir/vote-options.png";
 import img10 from "../../assets/img/eir/streamlined-porting-flow.png";
 import img11 from "../../assets/img/eir/material-ui-eir.png";
 
+import video01 from "../../assets/video/my-eir-workshop.mp4";
+
 import ScrollToTopOnMount from "../../Components/KeepTopPosition";
 
 export default function Eir() {
@@ -384,7 +386,14 @@ export default function Eir() {
               collaboratively organize these cards into logical groups or
               categories that made sense to them.
             </p>
-            <img src={img07} alt="Workshop: Card Sorting" className="img1" />
+            {/* <img src={img07} alt="Workshop: Card Sorting" className="img1" /> */}
+            <video
+              src={video01}
+              className="video-case"
+              autoPlay
+              muted
+              loop
+            ></video>
             <p>
               Participants were encouraged to arrange the cards into groups
               based on the logic they deemed most suitable. This process was
@@ -563,7 +572,7 @@ export default function Eir() {
               creating an exceptional user experience, one pixel at a time.
             </p>
           </article>
-          <article className="sub-content">
+          {/* <article className="sub-content">
             <h2 className="h2">Conclusion</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -571,7 +580,7 @@ export default function Eir() {
               obcaecati, sequi libero corrupti accusamus magni molestiae
               exercitationem. Iure sunt delectus fugiat.
             </p>
-          </article>
+          </article> */}
         </section>
       </main>
       <ContactLabel />
