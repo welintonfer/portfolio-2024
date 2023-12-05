@@ -14,7 +14,7 @@ export default function Homepage() {
   return (
     <>
       <ScrollToTopOnMount />
-      <LightBg />
+      {/* <LightBg /> */}
       <HeaderOne />
       <Hero />
       <TechnologiesMaster />
@@ -33,6 +33,7 @@ export default function Homepage() {
 
       <ContactLabel />
       <Footer />
+      <LightBg />
     </>
   );
 }
