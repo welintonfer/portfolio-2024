@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Homepage from "../Pages/Homepage";
 import AboutMe from "../Pages/AboutMe";
 import Projects from "../Pages/Projects";
+import WhatIdo from "../Pages/WhatIDo";
 
 export default function AppRouter() {
   const location = useLocation();
@@ -14,6 +15,7 @@ export default function AppRouter() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/what-i-do" element={<WhatIdo />} />
           <Route path="/projects/*" element={<Projects />} />
         </Routes>
       </AnimatePresence>

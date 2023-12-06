@@ -55,11 +55,11 @@ export default function HeaderOne() {
                     About me
                   </RouterLink>
                 </li>
-                {/* <li className="nav-item">
-                  <Link className="item-link" to="/#what-i-do">
+                <li className="nav-item">
+                  <RouterLink className="item-link" to="/what-i-do">
                     What I do
-                  </Link>
-                </li> */}
+                  </RouterLink>
+                </li>
                 <li className="nav-item">
                   <RouterLink className="item-link" to="/projects">
                     Projects
