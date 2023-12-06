@@ -1,5 +1,4 @@
 .card {
-  // Functionality
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -25,7 +24,6 @@
       transform: rotateY(180deg);
 
       &-1 {
-        //todo o BG com gradiente deve ser  "background-image:"
         background-image: linear-gradient(
           to right bottom,
           $color-secondary-light,
@@ -34,7 +32,6 @@
       }
 
       &-2 {
-        //todo o BG com gradiente deve ser  "background-image:"
         background-image: linear-gradient(
           to right bottom,
           $color-primary-light,
@@ -43,7 +40,6 @@
       }
 
       &-3 {
-        //todo o BG com gradiente deve ser  "background-image: tertiary"
         background-image: linear-gradient(
           to right bottom,
           $color-tertiary-light,

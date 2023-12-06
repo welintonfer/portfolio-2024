@@ -52,7 +52,7 @@ export default function MyProcess() {
     {
       id: 5,
       category: "Testing",
-      title: "05.Yet Another Title", // Corrigido o título
+      title: "05. Testing", // Corrigido o título
       icon: testingIcon,
       content: `Testing and monitoring user behavior with tools like Hotjar is crucial in UX design, enhancing the user experience to align with your audience's needs and preferences.`,
       abstract: testing,

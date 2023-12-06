@@ -1062,16 +1062,6 @@ body.no-scroll {
       padding: 48px 90px;
       box-shadow: 1px 1px 0px 0px #0f0f0f, 2px 2px 0px 0px #0f0f0f, 3px 3px 0px 0px #0f0f0f, 4px 4px 0px 0px #0f0f0f, 5px 5px 0px 0px #0f0f0f;
       backdrop-filter: blur(41.5px); }
-      .case-study-single__herocase .overview p {
-        color: #0f0f0f;
-        text-align: center;
-        font-family: Inter;
-        font-size: 1.6rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 175% */
-        opacity: 0.8; }
   .case-study-single__design-process {
     display: flex;
     flex-direction: column;
@@ -1087,16 +1077,7 @@ body.no-scroll {
     box-shadow: none;
     background-color: #fdfaef; }
     .case-study-single__design-process p {
-      width: 740px;
-      color: #0f0f0f;
-      text-align: center;
-      font-family: Inter;
-      font-size: 1.6rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 28px;
-      /* 175% */
-      opacity: 0.8; }
+      width: 740px; }
     .case-study-single__design-process .h3 {
       color: #0f0f0f;
       font-family: Inter;
@@ -1161,23 +1142,6 @@ body.no-scroll {
           justify-content: flex-start;
           list-style: none;
           gap: 24px; }
-          .case-study-single__content .sub-content .list ul li p {
-            color: #0f0f0f;
-            font-family: Inter;
-            font-size: 1.6rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 28px;
-            /* 175% */ }
-      .case-study-single__content .sub-content p {
-        color: #0f0f0f;
-        font-family: Inter;
-        font-size: 1.6rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 175% */
-        opacity: 0.8; }
       .case-study-single__content .sub-content .mobile-screen-port-col {
         display: flex;
         flex-direction: row;
@@ -1187,15 +1151,6 @@ body.no-scroll {
         gap: 24px; }
         .case-study-single__content .sub-content .mobile-screen-port-col .screen-img {
           width: 235px; }
-        .case-study-single__content .sub-content .mobile-screen-port-col p {
-          color: #0f0f0f;
-          font-family: Inter;
-          font-size: 1.6rem;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 28px;
-          /* 175% */
-          opacity: 0.8; }
       .case-study-single__content .sub-content .img1,
       .case-study-single__content .sub-content .video-case {
         width: 996px;
