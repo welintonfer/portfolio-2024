@@ -27,6 +27,11 @@ import unibrasilLogo from "../assets/img/about-me/unibrasil.svg";
 import briefing from "../assets/img/what-i-do/briefing.svg";
 import uxAldit from "../assets/img/what-i-do/ux-audit.svg";
 import informationArchitecturePart1 from "../assets/img/what-i-do/information-architecture-part-1.svg";
+import workshop from "../assets/img/what-i-do/workshop.svg";
+import sprint from "../assets/img/what-i-do/sprint.svg";
+import persona from "../assets/img/what-i-do/persona.svg";
+import research from "../assets/img/what-i-do/research.svg";
+import userJourney from "../assets/img/what-i-do/user-journey.svg";
 
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
@@ -500,6 +505,152 @@ export default function AboutMe() {
             <img
               className="wid-svg"
               src={informationArchitecturePart1}
+              alt=" Information Architecture Part 1"
+            />
+          </article>
+        </section>
+
+        <section className="case-study-single__design-process">
+          <h2 className="h2">02. Discover</h2>
+          <p>
+            A comprehensive discovery phase is crucial to UX design, with
+            strategic planning, thorough research, and tools such as proto
+            personas, mood boards, and journey maps.
+          </p>
+
+          <h3 className="h3">Technologies I Master for this process</h3>
+
+          <ul>
+            {skills.map(
+              (skill) =>
+                // Verifique se o ID está na lista permitida
+                understadingIds.includes(skill.id) && (
+                  <li
+                    className="skill-icon"
+                    key={skill.id}
+                    style={{
+                      backgroundColor: `${skill.bg}`,
+                      boxShadow: `0.74519px 0.74519px 0px 0px ${skill.color}, 1.49038px 1.49038px 0px 0px ${skill.color}, 2.23558px 2.23558px 0px 0px ${skill.color}`,
+                      border: `2px solid  ${skill.borderColor}`,
+                    }}
+                  >
+                    <img src={skill.logo} alt={skill.alt} />
+                  </li>
+                )
+            )}
+          </ul>
+        </section>
+
+        <section className="process">
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Workshop</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={workshop}
+                alt="briefing"
+              />
+              <p>
+                Workshops serve as pivotal components in gaining profound
+                insights into the genuine communication barriers within a
+                company's interface. They provide a comprehensive understanding
+                of users, delving into their authentic challenges, nuanced
+                operations, and cultural considerations. These sessions
+                illuminate intricate details, enabling a tailored approach to
+                address specific user needs and enhance overall user experience.
+              </p>
+            </div>
+
+            <img className="wid-svg" src={workshop} alt="briefing" />
+          </article>
+          <article>
+            <img className="wid-svg" src={sprint} alt="UX Audit" />
+            <div className="content">
+              <h3 className="h3 title-right">Sprint</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={sprint}
+                alt="UX Audit"
+              />
+              <p>
+                I employ Sprints strategically to expedite solutions,
+                particularly in scenarios with time constraints for problem
+                resolution. Additionally, I leverage Sprints for optimising
+                marketing campaigns, recognising the significant impact a
+                seasoned UX Designer can bring to the table.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Persona</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={persona}
+                alt="briefing"
+              />
+              <p>
+                I typically craft two distinct personas: proto-personas and
+                personas, meticulously derived from authentic data sourced from
+                the product in development. Proto-personas tentatively outline
+                characteristics, marked by a cautious acknowledgment of inherent
+                limitations—avoiding presumptions. It is imperative to uphold
+                the recognition that each user is inherently unique throughout
+                this process.
+              </p>
+            </div>
+
+            <img
+              className="wid-svg"
+              src={persona}
+              alt=" Information Architecture Part 1"
+            />
+          </article>
+          <article>
+            <img
+              className="wid-svg"
+              src={research}
+              alt=" Information Architecture Part 1"
+            />
+            <div className="content">
+              <h3 className="h3 title-right">Research</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={research}
+                alt="briefing"
+              />
+              <p>
+                My research and A/B testing methodology extend beyond merely
+                observing user behaviour. I delve deeper into comprehending the
+                product's significance in the user's routine, allowing me to
+                surpass conventional demographic considerations and gain nuanced
+                insights. This approach affords a holistic understanding that
+                goes beyond surface-level interactions, providing a more
+                comprehensive perspective on user engagement and product
+                integration into their daily lives.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">User Journey</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={userJourney}
+                alt="briefing"
+              />
+              <p>
+                Exploring the nuances outlined earlier, the intricacies of the
+                user journey stand out as the most captivating aspect of UX
+                design for me. At this juncture, we gain a heightened
+                understanding of the user's perspective, unraveling the
+                intricacies of their expectations and frustrations.
+              </p>
+            </div>
+
+            <img
+              className="wid-svg"
+              src={userJourney}
               alt=" Information Architecture Part 1"
             />
           </article>
