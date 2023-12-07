@@ -516,12 +516,13 @@ export default function AboutMe() {
         <section className="case-study-single__design-process">
           <h2 className="h2">02. Discover</h2>
           <p>
-            In the realm of UX design, a comprehensive discovery phase isn't
-            just crucial—it's the heartbeat. We embark on a strategic odyssey,
-            navigating with meticulous planning, in-depth research, and wielding
-            tools like proto-personas, mood boards, and journey maps as our
-            compass. This isn't just design; it's a journey to understand and
-            transcend user experience.
+            In crafting a seamless user experience, wireframing is our pivotal
+            step. With a mobile-first approach, we create low-fidelity
+            wireframes—a symphony of design simplicity. Each element plays a
+            carefully orchestrated note in the pursuit of an optimal user
+            experience. Testing becomes our compass, guiding us toward a
+            transformative destination. This isn't just wireframing; it's
+            sculpting the digital canvas with precision and foresight.
           </p>
 
           <h3 className="h3">Technologies I Master for this process</h3>
