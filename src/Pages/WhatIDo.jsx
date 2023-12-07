@@ -32,6 +32,9 @@ import sprint from "../assets/img/what-i-do/sprint.svg";
 import persona from "../assets/img/what-i-do/persona.svg";
 import research from "../assets/img/what-i-do/research.svg";
 import userJourney from "../assets/img/what-i-do/user-journey.svg";
+import LowFidelityDesign from "../assets/img/what-i-do/Low-fidelity-design.svg";
+import Wireframe from "../assets/img/what-i-do/wireframe.svg";
+import testingPart1 from "../assets/img/what-i-do/testing-part-1.svg";
 
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
@@ -646,6 +649,142 @@ export default function AboutMe() {
               src={userJourney}
               alt=" Information Architecture Part 1"
             />
+          </article>
+        </section>
+
+        <section className="case-study-single__design-process">
+          <h2 className="h2">03. Wireframe</h2>
+          <p>
+            In the realm of UX design, a comprehensive discovery phase isn't
+            just crucial—it's the heartbeat. We embark on a strategic odyssey,
+            navigating with meticulous planning, in-depth research, and wielding
+            tools like proto-personas, mood boards, and journey maps as our
+            compass. This isn't just design; it's a journey to understand and
+            transcend user experience.
+          </p>
+
+          <h3 className="h3">Technologies I Master for this process</h3>
+
+          <ul>
+            {skills.map(
+              (skill) =>
+                // Verifique se o ID está na lista permitida
+                understadingIds.includes(skill.id) && (
+                  <li
+                    className="skill-icon"
+                    key={skill.id}
+                    style={{
+                      backgroundColor: `${skill.bg}`,
+                      boxShadow: `0.74519px 0.74519px 0px 0px ${skill.color}, 1.49038px 1.49038px 0px 0px ${skill.color}, 2.23558px 2.23558px 0px 0px ${skill.color}`,
+                      border: `2px solid  ${skill.borderColor}`,
+                    }}
+                  >
+                    <img src={skill.logo} alt={skill.alt} />
+                  </li>
+                )
+            )}
+          </ul>
+        </section>
+
+        <section className="process">
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Low-fidelity Design</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={LowFidelityDesign}
+                alt="Low-fidelity Design"
+              />
+              <p>
+                I have a profound affinity for engaging with low-fidelity
+                design—not merely for its technical significance in the process,
+                but for the juncture it provides. It's the moment where the
+                diverse array of ideas, meticulously inked on paper by our team,
+                comes to life.
+              </p>
+            </div>
+
+            <img
+              className="wid-svg"
+              src={LowFidelityDesign}
+              alt="Low-fidelity Design"
+            />
+          </article>
+          <article>
+            <img className="wid-svg" src={Wireframe} alt="Wireframe" />
+            <div className="content">
+              <h3 className="h3 title-right">Wireframe</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={Wireframe}
+                alt="Wireframe"
+              />
+              <p>
+                In the realm of intricate projects, wireframes emerge not just
+                as a mere tool but as a compelling narrative—a living case study
+                etched into the project's chronicles. They transcend the
+                conventional, weaving a continuous tapestry that not only guides
+                the design team but also extends a helping hand to our visionary
+                developers. Picture this: a roadmap for testing, a portal to
+                low-fidelity prototypes—these wireframes transcend pixels. They
+                are the silent architects, sculpting the project's destiny even
+                before the UI dances into the limelight. And in this dance, they
+                don't just optimise; they elevate—the unsung heroes in the
+                symphony of cost efficiency.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Testing part 1</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={testingPart1}
+                alt="Testing part 1"
+              />
+              <p>
+                In my customary approach, I intricately carve out two personas:
+                proto-personas and personas, both meticulously sculpted from
+                authentic data extracted from the evolving product.
+                Proto-personas delicately sketch out characteristics, all while
+                maintaining a prudent awareness of inherent limitations—steering
+                clear of unwarranted assumptions. It remains paramount to
+                embrace the fundamental truth that every user is inherently
+                distinctive throughout this meticulous process. this process.
+              </p>
+            </div>
+
+            <img className="wid-svg" src={testingPart1} alt="Testing part 1" />
+          </article>
+          <article>
+            <img
+              className="wid-svg"
+              src={research}
+              alt="Information Architecture Part 2"
+            />
+            <div className="content">
+              <h3 className="h3 title-right">
+                Information Architecture Part 2
+              </h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={research}
+                alt="Information Architecture Part 2"
+              />
+              <p>
+                In the intricate dance of digital creation, Information
+                Architecture (IA) emerges as the unsung conductor, not merely
+                constructing layouts but infusing life into user experiences.
+                It's not just about how it looks; it's about how it works. From
+                the foundational Briefing to the meticulous choreography of a UX
+                Audit, IA is the quiet maestro orchestrating a narrative where
+                every user journey unfolds like a revelation. It's not
+                navigation; it's a seamless glide through an experience. As we
+                venture into Information Architecture Part 2, we don the mantle
+                of visionaries, shaping not just digital landscapes but the very
+                future of user-centric design.
+              </p>
+            </div>
           </article>
         </section>
 
