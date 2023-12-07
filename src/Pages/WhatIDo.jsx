@@ -36,6 +36,9 @@ import LowFidelityDesign from "../assets/img/what-i-do/Low-fidelity-design.svg";
 import Wireframe from "../assets/img/what-i-do/wireframe.svg";
 import testingPart1 from "../assets/img/what-i-do/testing-part-1.svg";
 import informationArchitecturePart2 from "../assets/img/what-i-do/information-architecture-part-2.svg";
+import toolLab from "../assets/img/what-i-do/tool-lab.svg";
+import designSystem from "../assets/img/what-i-do/design-system.svg";
+import testingPart2 from "../assets/img/what-i-do/testing-part-2.svg";
 
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
@@ -787,6 +790,100 @@ export default function AboutMe() {
                 future of user-centric design.
               </p>
             </div>
+          </article>
+        </section>
+
+        <section className="case-study-single__design-process">
+          <h2 className="h2">04. Prototype</h2>
+          <p>
+            Prototyping with Figma, Invisionapp, and UXPin is a crucial UX
+            design phase that involves creating interactive mockups, testing,
+            and refining the user experience.
+          </p>
+
+          <h3 className="h3">Technologies I Master for this process</h3>
+
+          <ul>
+            {skills.map(
+              (skill) =>
+                // Verifique se o ID está na lista permitida
+                understadingIds.includes(skill.id) && (
+                  <li
+                    className="skill-icon"
+                    key={skill.id}
+                    style={{
+                      backgroundColor: `${skill.bg}`,
+                      boxShadow: `0.74519px 0.74519px 0px 0px ${skill.color}, 1.49038px 1.49038px 0px 0px ${skill.color}, 2.23558px 2.23558px 0px 0px ${skill.color}`,
+                      border: `2px solid  ${skill.borderColor}`,
+                    }}
+                  >
+                    <img src={skill.logo} alt={skill.alt} />
+                  </li>
+                )
+            )}
+          </ul>
+        </section>
+
+        <section className="process">
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Tool Lab</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={toolLab}
+                alt="Tool La"
+              />
+              <p>
+                In my arsenal, I wield tools like Invision, UXPin, Sketch, and
+                Figma my personal J.A.R.V.I.S. Ensuring the project is finely
+                tuned for devmode, I make front-end development a seamless
+                journey, just like a Stark-tech creation coming to life.
+              </p>
+            </div>
+
+            <img className="wid-svg" src={toolLab} alt="Tool La" />
+          </article>
+          <article>
+            <img className="wid-svg" src={designSystem} alt="Design System" />
+            <div className="content">
+              <h3 className="h3 title-right">Design System</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={designSystem}
+                alt="Design System"
+              />
+              <p>
+                In my journey from Graphic Design, the Brand Guide has been my
+                compass since the early days of my career. Engaging with the
+                Design System extends beyond Figma it resonates in CSS Global.
+                Here, the Design System, embodied in CSS, elevates the essence
+                of code maintenance, ensuring a harmonious blend of quality and
+                precision.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Testing part 2</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={testingPart2}
+                alt="Testing part 2"
+              />
+              <p>
+                In leveraging the prepared Design System and high-fidelity
+                Prototype, our strategic move is to initiate the second round of
+                A/B tests. This pivotal step allows us to rigorously validate
+                the real-world behaviour of these implemented elements. The
+                beauty lies in the seamless integration of A/B tests with
+                nuanced variations in both the Design System and the Prototype.
+                This targeted approach directs our focus to specific areas,
+                maximising our ability to discern and optimise elements that
+                wield substantial influence on the user experience.
+              </p>
+            </div>
+
+            <img className="wid-svg" src={testingPart2} alt="Testing part 2" />
           </article>
         </section>
 
