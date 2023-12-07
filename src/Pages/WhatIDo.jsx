@@ -35,6 +35,7 @@ import userJourney from "../assets/img/what-i-do/user-journey.svg";
 import LowFidelityDesign from "../assets/img/what-i-do/Low-fidelity-design.svg";
 import Wireframe from "../assets/img/what-i-do/wireframe.svg";
 import testingPart1 from "../assets/img/what-i-do/testing-part-1.svg";
+import informationArchitecturePart2 from "../assets/img/what-i-do/information-architecture-part-2.svg";
 
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
@@ -760,7 +761,7 @@ export default function AboutMe() {
           <article>
             <img
               className="wid-svg"
-              src={research}
+              src={informationArchitecturePart2}
               alt="Information Architecture Part 2"
             />
             <div className="content">
@@ -769,7 +770,7 @@ export default function AboutMe() {
               </h3>
               <img
                 className="wid-svg-hidden-desk"
-                src={research}
+                src={informationArchitecturePart2}
                 alt="Information Architecture Part 2"
               />
               <p>
