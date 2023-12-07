@@ -388,10 +388,11 @@ export default function AboutMe() {
         <div className="about-me-hero__content">
           <h1 className="display-1">What I do</h1>
           <p>
-            <strong>Introduction</strong>: Hi there! as a seasoned UX/UI
-            Designer with over 13 years of experience. I specialise in tackling
-            complex problems, crafting visually appealing UI designs, conducting
-            impactful UX research, and applying user-centred design principles.
+            <strong>Hello world!</strong> With over 13 years in the UX/UI design
+            arena, I've honed my craft in navigating complex challenges,
+            sculpting visually stunning UI designs, conducting impactful UX
+            research, all while dancing to the rhythm of user-centered design
+            principles.
           </p>
         </div>
       </section>
@@ -401,7 +402,7 @@ export default function AboutMe() {
         <p>
           Effective UX design prioritises user needs with intuitive navigation,
           clear messaging, and visually appealing design for a seamless
-          experience.
+          experience.0
         </p>
 
         <h3 className="h3">Technologies I Master for this process</h3>
@@ -437,13 +438,12 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                I integrate a strategic approach into my design process by
-                embracing the art of attentive briefing. This involves actively
-                listening and empathetically placing oneself in the client's
-                perspective to comprehend their vision within the contemporary
-                market landscape. The briefing transcends conventional notes on
-                product interface features; rather, it serves as a comprehensive
-                immersion into the intricacies of each project.
+                In crafting my design process, I infuse a strategic essence by
+                immersing myself in the art of the attentive briefing. I don't
+                just listen; I empathetically step into the client's shoes,
+                delving into their vision amidst the dynamic market landscape.
+                This briefing goes beyond mere notes on interface features—it's
+                a profound dive into the intricacies
               </p>
             </div>
 
@@ -459,18 +459,18 @@ export default function AboutMe() {
                 alt="UX Audit"
               />
               <p>
-                A User Experience Audit (UX Audit) strategically optimizes
-                digital products by uncovering accessibility and conversion
-                challenges. While corrective, it isn't the ultimate solution;
-                nevertheless, it brings substantial improvements.
+                The User Experience Audit (UX Audit) strategically elevates
+                digital products by unveiling accessibility and conversion
+                challenges. While corrective, it's not the final solution;
+                rather, a catalyst for substantial improvements.
               </p>
               <p>
-                This evaluation identifies issues hindering user experience,
-                allowing prompt resolutions aligned with Jakob Nielsen's 10
-                heuristic principles. The UX Audit marks a crucial starting
-                point in the journey to success, offering comprehensive insights
-                before workshops, including those pivotal in shaping the overall
-                user experience.
+                This assessment discerns issues impeding the user experience,
+                enabling swift resolutions in harmony with Jakob Nielsen's 10
+                heuristic principles. The UX Audit signifies a pivotal genesis
+                in the pursuit of success, providing comprehensive insights
+                preluding workshops, including those pivotal in sculpting the
+                overall user experience.
               </p>
             </div>
           </article>
@@ -485,20 +485,20 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                In crafting a robust digital landscape, Briefing and UX Audit
-                synergise, providing foundational insights. While Briefing
-                outlines project goals, stakeholders, and initial requirements,
-                UX Audit dissects existing issues. These strides lay the IA
-                groundwork, covering 40% to 60% of initial considerations. Yet,
-                true IA mastery demands deeper user understanding.
-              </p>
-              <p>
-                Supplementing insights with research and testing unveils
-                user-centric architectures, ensuring harmony between project
-                requisites and user dynamics, propelling IA endeavours. As we
-                embark on this journey, Information Architecture Insights sets
-                the stage, symbolising an orchestrated blend of foresight and
-                user-centric understanding.
+                In the pursuit of sculpting a robust digital landscape, the
+                intricate interplay between Briefing and UX Audit reveals
+                foundational truths. Briefing sketches the project canvas,
+                outlining goals and stakeholder intricacies, while UX Audit
+                dissects existing challenges. These strategic strides form the
+                cornerstone of Information Architecture (IA), covering 40% to
+                60% of initial considerations. Yet, true IA mastery calls for a
+                profound understanding of user dynamics. Augmenting these
+                insights through meticulous research and testing unveils
+                user-centric architectures, ensuring a harmonious blend of
+                project requisites and the ever-shifting user landscape. As we
+                embark on this journey, Information Architecture Insights takes
+                center stage—a symphony of foresight and an intimate grasp of
+                user-centric intricacies.
               </p>
             </div>
 
@@ -513,9 +513,12 @@ export default function AboutMe() {
         <section className="case-study-single__design-process">
           <h2 className="h2">02. Discover</h2>
           <p>
-            A comprehensive discovery phase is crucial to UX design, with
-            strategic planning, thorough research, and tools such as proto
-            personas, mood boards, and journey maps.
+            In the realm of UX design, a comprehensive discovery phase isn't
+            just crucial—it's the heartbeat. We embark on a strategic odyssey,
+            navigating with meticulous planning, in-depth research, and wielding
+            tools like proto-personas, mood boards, and journey maps as our
+            compass. This isn't just design; it's a journey to understand and
+            transcend user experience.
           </p>
 
           <h3 className="h3">Technologies I Master for this process</h3>
@@ -551,13 +554,13 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                Workshops serve as pivotal components in gaining profound
-                insights into the genuine communication barriers within a
-                company's interface. They provide a comprehensive understanding
-                of users, delving into their authentic challenges, nuanced
-                operations, and cultural considerations. These sessions
-                illuminate intricate details, enabling a tailored approach to
-                address specific user needs and enhance overall user experience.
+                Workshops stand as crucial catalysts, unraveling the profound
+                tapestry of communication barriers within a company's interface.
+                They go beyond the surface, delving deep into the authentic
+                challenges, nuanced operations, and cultural intricacies of
+                users. In these sessions, we illuminate the minute details,
+                paving the way for a tailored approach that not only addresses
+                specific user needs but elevates the entire user experience.
               </p>
             </div>
 
@@ -567,17 +570,13 @@ export default function AboutMe() {
             <img className="wid-svg" src={sprint} alt="UX Audit" />
             <div className="content">
               <h3 className="h3 title-right">Sprint</h3>
-              <img
-                className="wid-svg-hidden-desk"
-                src={sprint}
-                alt="UX Audit"
-              />
+              <img className="wid-svg-hidden-desk" src={sprint} alt="Sprint" />
               <p>
-                I employ Sprints strategically to expedite solutions,
-                particularly in scenarios with time constraints for problem
-                resolution. Additionally, I leverage Sprints for optimising
-                marketing campaigns, recognising the significant impact a
-                seasoned UX Designer can bring to the table.
+                Strategically, I harness Sprints as a dynamic tool to accelerate
+                problem-solving, especially when time is of the essence. Beyond
+                that, I deploy Sprints as a key driver in fine-tuning marketing
+                campaigns, acknowledging the profound influence an adept UX
+                Designer can wield in these strategic endeavors.
               </p>
             </div>
           </article>
@@ -590,28 +589,21 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                I typically craft two distinct personas: proto-personas and
-                personas, meticulously derived from authentic data sourced from
-                the product in development. Proto-personas tentatively outline
-                characteristics, marked by a cautious acknowledgment of inherent
-                limitations—avoiding presumptions. It is imperative to uphold
-                the recognition that each user is inherently unique throughout
-                this process.
+                In my customary approach, I intricately carve out two personas:
+                proto-personas and personas, both meticulously sculpted from
+                authentic data extracted from the evolving product.
+                Proto-personas delicately sketch out characteristics, all while
+                maintaining a prudent awareness of inherent limitations—steering
+                clear of unwarranted assumptions. It remains paramount to
+                embrace the fundamental truth that every user is inherently
+                distinctive throughout this meticulous process. this process.
               </p>
             </div>
 
-            <img
-              className="wid-svg"
-              src={persona}
-              alt=" Information Architecture Part 1"
-            />
+            <img className="wid-svg" src={persona} alt=" Persona" />
           </article>
           <article>
-            <img
-              className="wid-svg"
-              src={research}
-              alt=" Information Architecture Part 1"
-            />
+            <img className="wid-svg" src={research} alt="Persona" />
             <div className="content">
               <h3 className="h3 title-right">Research</h3>
               <img
@@ -620,14 +612,14 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                My research and A/B testing methodology extend beyond merely
-                observing user behaviour. I delve deeper into comprehending the
-                product's significance in the user's routine, allowing me to
-                surpass conventional demographic considerations and gain nuanced
-                insights. This approach affords a holistic understanding that
-                goes beyond surface-level interactions, providing a more
-                comprehensive perspective on user engagement and product
-                integration into their daily lives.
+                In my research and A/B testing methodology, it's not just about
+                observing user behavior; it's about truly understanding the
+                product's role in the user's daily rhythm. By transcending
+                conventional demographics, I aim for nuanced insights that paint
+                a broader picture. This approach offers a holistic
+                understanding, going beyond surface-level interactions and
+                providing a comprehensive view of user engagement and seamless
+                product integration into their everyday experiences.
               </p>
             </div>
           </article>
@@ -640,11 +632,12 @@ export default function AboutMe() {
                 alt="briefing"
               />
               <p>
-                Exploring the nuances outlined earlier, the intricacies of the
-                user journey stand out as the most captivating aspect of UX
-                design for me. At this juncture, we gain a heightened
-                understanding of the user's perspective, unraveling the
-                intricacies of their expectations and frustrations.
+                Delving into the subtleties mentioned earlier, it's the
+                intricacies of the user journey that truly captivate me within
+                the realm of UX design. At this pivotal moment, we ascend to a
+                heightened understanding of the user's perspective, unraveling
+                the complexities of their expectations and frustrations with a
+                meticulous eye for detail.
               </p>
             </div>
 
