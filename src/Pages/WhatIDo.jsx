@@ -39,6 +39,8 @@ import informationArchitecturePart2 from "../assets/img/what-i-do/information-ar
 import toolLab from "../assets/img/what-i-do/tool-lab.svg";
 import designSystem from "../assets/img/what-i-do/design-system.svg";
 import testingPart2 from "../assets/img/what-i-do/testing-part-2.svg";
+import crossBrowserTesting from "../assets/img/what-i-do/cross-browser-testing.svg";
+import monitoring from "../assets/img/what-i-do/monitoring.svg";
 
 import profilePic from "../assets/img/avatarImg@2x.png";
 import LightBg from "../Components/LightBg";
@@ -859,6 +861,110 @@ export default function AboutMe() {
                 Here, the Design System, embodied in CSS, elevates the essence
                 of code maintenance, ensuring a harmonious blend of quality and
                 precision.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Testing part 2</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={testingPart2}
+                alt="Testing part 2"
+              />
+              <p>
+                In leveraging the prepared Design System and high-fidelity
+                Prototype, our strategic move is to initiate the second round of
+                A/B tests. This pivotal step allows us to rigorously validate
+                the real-world behaviour of these implemented elements. The
+                beauty lies in the seamless integration of A/B tests with
+                nuanced variations in both the Design System and the Prototype.
+                This targeted approach directs our focus to specific areas,
+                maximising our ability to discern and optimise elements that
+                wield substantial influence on the user experience.
+              </p>
+            </div>
+
+            <img className="wid-svg" src={testingPart2} alt="Testing part 2" />
+          </article>
+        </section>
+
+        <section className="case-study-single__design-process">
+          <h2 className="h2">05. Testing</h2>
+          <p>
+            Testing and monitoring user behaviour with tools like Hotjar is
+            crucial in UX design, enhancing the user experience to align with
+            your audience's needs and preferences.
+          </p>
+
+          <h3 className="h3">Technologies I Master for this process</h3>
+
+          <ul>
+            {skills.map(
+              (skill) =>
+                // Verifique se o ID está na lista permitida
+                understadingIds.includes(skill.id) && (
+                  <li
+                    className="skill-icon"
+                    key={skill.id}
+                    style={{
+                      backgroundColor: `${skill.bg}`,
+                      boxShadow: `0.74519px 0.74519px 0px 0px ${skill.color}, 1.49038px 1.49038px 0px 0px ${skill.color}, 2.23558px 2.23558px 0px 0px ${skill.color}`,
+                      border: `2px solid  ${skill.borderColor}`,
+                    }}
+                  >
+                    <img src={skill.logo} alt={skill.alt} />
+                  </li>
+                )
+            )}
+          </ul>
+        </section>
+
+        <section className="process">
+          <article>
+            <div className="content">
+              <h3 className="h3 title-right">Cross-Browser Testing</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={crossBrowserTesting}
+                alt="Cross-Browser Testing"
+              />
+              <p>
+                With over a decade of experience since 2010, I've honed the
+                ability to identify and address the classic browser issues. I
+                recognise the crucial importance of ensuring the solutions we
+                develop provide a consistent and optimised experience,
+                regardless of the user's choice of browser. This not only
+                enhances usability but also strengthens user confidence,
+                contributing to the overall success of the digital experience.
+              </p>
+            </div>
+
+            <img
+              className="wid-svg"
+              src={crossBrowserTesting}
+              alt="Cross-Browser Testing"
+            />
+          </article>
+          <article>
+            <img className="wid-svg" src={monitoring} alt="Monitoring" />
+            <div className="content">
+              <h3 className="h3 title-right">Monitoring</h3>
+              <img
+                className="wid-svg-hidden-desk"
+                src={monitoring}
+                alt="Monitoring"
+              />
+              <p>
+                Monitoring isn't about surveillance; quite the opposite it's
+                about observing your user's behaviour, delving into their
+                interactions, and uncovering new possibilities we might not have
+                imagined. I accomplish this through tools like Hotjar. It's
+                crucial to understand that monitoring is an ongoing process,
+                aligning with the ever-evolving cultural landscape we find
+                ourselves in. Embracing this constant vigilance ensures that we
+                adapt and innovate in step with the dynamic nature of our
+                digital ecosystem. precision.
               </p>
             </div>
           </article>
