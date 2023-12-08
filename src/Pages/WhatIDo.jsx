@@ -968,29 +968,6 @@ export default function AboutMe() {
               </p>
             </div>
           </article>
-          <article>
-            <div className="content">
-              <h3 className="h3 title-right">Testing part 2</h3>
-              <img
-                className="wid-svg-hidden-desk"
-                src={testingPart2}
-                alt="Testing part 2"
-              />
-              <p>
-                In leveraging the prepared Design System and high-fidelity
-                Prototype, our strategic move is to initiate the second round of
-                A/B tests. This pivotal step allows us to rigorously validate
-                the real-world behaviour of these implemented elements. The
-                beauty lies in the seamless integration of A/B tests with
-                nuanced variations in both the Design System and the Prototype.
-                This targeted approach directs our focus to specific areas,
-                maximising our ability to discern and optimise elements that
-                wield substantial influence on the user experience.
-              </p>
-            </div>
-
-            <img className="wid-svg" src={testingPart2} alt="Testing part 2" />
-          </article>
         </section>
 
         {/* <ul>
