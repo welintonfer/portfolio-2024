@@ -57,7 +57,7 @@ export default function HelenTurkington() {
         <section className="case-study-single__herocase">
           <img src={logo} alt="eir logo" />
           <div className="overview">
-            <h1 className="h1">Project Overview</h1>
+            <h1 className="h1">Helen Turkington Project Overview</h1>
             <p>
               <strong>UX Visual brand design</strong>. It has been a great
               honour to collaborate with Helen Turkington, recognised as one of

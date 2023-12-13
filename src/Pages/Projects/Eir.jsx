@@ -63,7 +63,7 @@ export default function Eir() {
         <section className="case-study-single__herocase">
           <img src={logo} alt="eir logo" />
           <div className="overview">
-            <h1 className="h1">Project Overview</h1>
+            <h1 className="h1">Eir Project Overview</h1>
             <p>
               <strong>Eir's UX Evolution: Embracing SaaS at version 1.0</strong>
               . Welcome to Eir's user-centric innovation. I'm Wellington

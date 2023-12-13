@@ -53,14 +53,14 @@ export default function HabitusHealth() {
         <section className="case-study-single__herocase">
           <img src={logo} alt="eir logo" />
           <div className="overview">
-            <h1 className="h1">Project Overview</h1>
+            <h1 className="h1">Habitushealth Project Overview</h1>
             <p>
               <strong>Usability Heuristics & Audi</strong>. o empower
               organisations in ensuring regulatory compliance and fostering a
               healthier, safer workplace environment for employees. For an
-              Ecommerce site like the Eir, a good user experience is crucial to
-              attracting new customers and creating loyal advocates for the
-              future.
+              Ecommerce site like the Habitushealth, a good user experience is
+              crucial to attracting new customers and creating loyal advocates
+              for the future.
             </p>
           </div>
         </section>
