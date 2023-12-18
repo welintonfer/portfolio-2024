@@ -128,7 +128,7 @@ export default function CaseStudy() {
                   </ul>
                   <div className="description">
                     <p>
-                      {`For an Applications site like the Habitushealth, a good user experience is crucial to attracting new customers and creating loyal advocates for the future.`}
+                      {`For an Applications site like the Habitushealth, a good user experience is crucial to attracting new customers and creating loyal advocates for the future!`}
                     </p>
                   </div>
                   <Link to="/projects/habitus-health">Read Case Study</Link>
