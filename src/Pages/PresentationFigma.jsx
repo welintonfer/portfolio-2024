@@ -4,8 +4,6 @@ export default function PresentationFigma() {
   return (
     <>
       <div style={{ width: "100%", height: "100vh" }}>
-        {" "}
-        {/* Ensuring the parent div takes full width and height */}
         <iframe
           style={{
             width: "100%",
