@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import figma from "../../assets/img/skills/figma.svg";
 import psd from "../../assets/img/skills/ps.svg";
 import ai from "../../assets/img/skills/ai.svg";
@@ -14,7 +16,6 @@ import img03 from "../../assets/img/eir/register-flow@2x.png";
 import img04 from "../../assets/img/eir/notification-centre.png";
 import img05 from "../../assets/img/eir/notification-centre-mobile.png";
 import img06 from "../../assets/img/eir/user-flow-map.png";
-import img07 from "../../assets/img/eir/workshop.png";
 import img08 from "../../assets/img/eir/bottom-navigation.png";
 import img09 from "../../assets/img/eir/vote-options.png";
 import img10 from "../../assets/img/eir/streamlined-porting-flow.png";
@@ -55,7 +56,7 @@ export default function Eir() {
   ];
 
   return (
-    <>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
@@ -585,6 +586,6 @@ export default function Eir() {
       </main>
       <ContactLabel />
       <Footer />
-    </>
+    </motion.div>
   );
 }

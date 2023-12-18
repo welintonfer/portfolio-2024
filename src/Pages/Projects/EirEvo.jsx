@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import figma from "../../assets/img/skills/figma.svg";
 import psd from "../../assets/img/skills/ps.svg";
 import ai from "../../assets/img/skills/ai.svg";
@@ -53,7 +55,7 @@ export default function EirEvo() {
   ];
 
   return (
-    <>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <ScrollToTopOnMount />
       <LightBg />
       <HeaderOne />
@@ -576,6 +578,6 @@ export default function EirEvo() {
       </main>
       <ContactLabel />
       <Footer />
-    </>
+    </motion.div>
   );
 }
