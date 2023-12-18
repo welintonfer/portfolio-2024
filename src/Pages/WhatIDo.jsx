@@ -387,7 +387,7 @@ const resume = [
 
 const understadingIds = [1, 2];
 
-export default function AboutMe() {
+export default function WhatIDo() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <ScrollToTopOnMount />

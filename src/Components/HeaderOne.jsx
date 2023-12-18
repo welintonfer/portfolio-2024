@@ -65,6 +65,11 @@ export default function HeaderOne() {
                     Projects
                   </RouterLink>
                 </li>
+                <li className="nav-item">
+                  <RouterLink className="item-link" to="/pre-figma">
+                    Figma
+                  </RouterLink>
+                </li>
               </ul>
             </div>
             <div className="ctas">

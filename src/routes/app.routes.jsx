@@ -5,6 +5,7 @@ import Homepage from "../Pages/Homepage";
 import AboutMe from "../Pages/AboutMe";
 import Projects from "../Pages/Projects";
 import WhatIdo from "../Pages/WhatIDo";
+import PresentationFigma from "../Pages/PresentationFigma";
 
 export default function AppRouter() {
   const location = useLocation();
@@ -17,6 +18,7 @@ export default function AppRouter() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/what-i-do" element={<WhatIdo />} />
           <Route path="/projects/*" element={<Projects />} />
+          <Route path="/ux-audit-habitus" element={<PresentationFigma />} />
         </Routes>
       </AnimatePresence>
     </>
