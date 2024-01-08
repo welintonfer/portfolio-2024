@@ -115,7 +115,7 @@ export default function CaseStudy() {
                   <div className="green"></div>
                 </div>
               </div>
-              <div className="project">
+              {/* <div className="project">
                 <div className="content">
                   <h3 className="h3">Habitus Health - UX Audit</h3>
                   <ul className="tags">
@@ -139,7 +139,7 @@ export default function CaseStudy() {
                 <div className="img-content-m">
                   <img src={habitusMobileCover} alt="Habitus Health" />
                 </div>
-              </div>
+              </div> */}
             </li>
             <li>
               <div className="top-bar">
