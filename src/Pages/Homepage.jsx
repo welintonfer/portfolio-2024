@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import LightBg from "../Components/LightBg";
@@ -19,7 +20,9 @@ export default function Homepage() {
       <Hero />
       <TechnologiesMaster />
       <MyProcess />
-
+      <section className="skills py__24">
+        <p className="h2">Case Study</p>
+      </section>
       {projectsData.map((project) => (
         <CaseStudy
           showTitle={true}
@@ -30,6 +33,10 @@ export default function Homepage() {
           caseStudyCover={project.caseStudyCover}
         />
       ))}
+      
+      <section className="skills py__24">
+        <Link className="btn-case-study" to="/projects">See all projects</Link>
+      </section>
 
       <ContactLabel />
       <Footer />

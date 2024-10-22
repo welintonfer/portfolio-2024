@@ -19,6 +19,13 @@ import img06 from "../../assets/img/habitus/06-registration-steps@2x.png";
 import img07 from "../../assets/img/habitus/07-onboarding@2x.png";
 import img08 from "../../assets/img/habitus/08-onboarding-example@2x.png";
 import img09 from "../../assets/img/habitus/09-ui-kit@2x.png";
+import img10 from "../../assets/img/habitus/blender-cameras-for-photos-min.png";
+import img11 from "../../assets/img/habitus/3d-back-isometric.png";
+import img12 from "../../assets/img/habitus/3d-front-isometric.png";
+import img13 from "../../assets/img/habitus/php-croper-img.png";
+import img14 from "../../assets/img/habitus/habitus-health-logo-2d@2x.png";
+
+import video01 from "../../assets/video/habitus-health-logo-3d.mp4";
 
 import ScrollToTopOnMount from "../../Components/KeepTopPosition";
 
@@ -42,6 +49,14 @@ export default function HabitusHealth() {
       borderColor: "#5F97D7",
       bg: "#fff",
     },
+    {
+      id: 3,
+      logo: ai,
+      alt: "Adobe Illustrator",
+      color: "#080138",
+      borderColor: "#eda741",
+      bg: "#fff",
+    },
   ];
 
   return (
@@ -53,29 +68,24 @@ export default function HabitusHealth() {
         <section className="case-study-single__herocase">
           <img src={logo} alt="eir logo" />
           <div className="overview">
-            <h1 className="h1">Habitushealth Project Overview</h1>
+            <h1 className="h1">Habitus Health Project Overview</h1>
             <p>
-              <strong>Usability Heuristics & Audi</strong>. o empower
-              organisations in ensuring regulatory compliance and fostering a
-              healthier, safer workplace environment for employees. For an
-              Ecommerce site like the Habitushealth, a good user experience is
-              crucial to attracting new customers and creating loyal advocates
-              for the future.
+            This UX audit identified areas to enhance the user experience, aligned with Habitus Health’s mission: promoting well-being in the workplace. The platform addresses improper posture, reducing the impact on physical and mental health. My consulting work focused on detecting friction points, optimizing navigation, and improving user satisfaction to convert users into loyal advocates.
             </p>
           </div>
         </section>
         <section className="case-study-single__design-process">
           <h2 className="h2">Design Process</h2>
-          <p>
-            <strong>About this review</strong>: For an Applications site like
-            the Habitushealth, a good user experience is crucial to attracting
-            new customers and creating loyal advocates for the future. In this
-            review, we are looking for “on-site” issues: Areas that will make
-            the user’s journey a smoother one; Any elements that might cause
-            friction in the buying process; Any elements that might cause
-            friction in the buying process; Room for improvement in relation to
-            website navigation.
-          </p>
+            <p>
+            The review centered on optimizing the user journey within the application to ensure a smooth and engaging experience. Key areas of focus included:
+            </p>
+          <ol className="ol-list">
+              <li><strong>Identifying friction points</strong> affecting user flow.</li>
+              <li><strong>Improving navigation</strong> to boost intuitiveness.</li>
+              <li><strong>Optimising interactions</strong> to align with user expectations.</li>
+          </ol>
+          <br />
+          <p>This approach ensures that the platform provides <strong>consistent</strong>, <strong>efficient</strong>, <strong>and enjoyable experiences</strong> for all users.</p>
           <h3 className="h3">Design Toolkit</h3>
           <ul>
             {skills.map((skill) => (
@@ -130,13 +140,11 @@ export default function HabitusHealth() {
           <article className="sub-content">
             <h2 className="h2">Consistency and standards</h2>
             <p>
-              <strong>Problems - Identifying the Need for Consistency</strong> :
-              The existing user profile exhibits a satisfactory foundation, yet
-              it could benefit from an infusion of heightened consistency and
-              information hierarchy to enhance the overall user experience.
+            <strong>Issue Identified:</strong><br />
+            The user profile demonstrates a solid foundation but lacks <strong>consistency in layout</strong> and a clear <strong>information hierarchy</strong>. This results in minor friction points, affecting usability and user comprehension.
             </p>
             <p>
-              <strong>Key Improvements:</strong>
+              <strong>Proposed Solution:</strong>
             </p>
 
             <div className="list">
@@ -144,61 +152,30 @@ export default function HabitusHealth() {
                 <li>
                   <p>
                     <strong>1. </strong>
-                    Hierarchy of information.
+                    <strong>Information Hierarchy</strong>: Introduce section dividers and utilize icons to categorize key elements logically.
                   </p>
                 </li>
                 <li>
                   <p>
                     <strong>2. </strong>
-                    Spacing and sizes
+                    <strong>Spacing and Alignment</strong>: Ensure consistent padding and font sizes across all components.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>3. </strong>
+                    <strong>User Journey Optimisation</strong>: Use visual hierarchy to guide users through the interface intuitively, ensuring a smooth navigation flow.
                   </p>
                 </li>
               </ul>
             </div>
             <img src={img03} alt="Consistency and standards" className="img1" />
             <p>
-              <strong>Suggestions - Improving Consistency</strong> : In the
-              proposed design, I strategically employed information hierarchy by
-              utilising iconography, effectively segregating specific elements.
-              This implementation serves to optimise the user journey, fostering
-              a more seamless and intuitive navigation experience.
+              <strong>Issue Identified</strong>: In the
+              The user profile is well-structured but needs improved consistency and information hierarchy to optimize navigation and comprehension.
             </p>
             <p>
-              <strong>Improvements:</strong>
-            </p>
-
-            <div className="list">
-              <ul>
-                <li>
-                  <p>
-                    <strong>1. </strong>
-                    Strategic Information Hierarchy
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>2. </strong>
-                    Iconography Utilisation
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>3. </strong>
-                    Enhanced User Journey
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </article>
-          <article className="sub-content">
-            <h2 className="h2">Aesthetic and minimalist design</h2>
-            <p>
-              <strong>Problems - Optimising the Workout Section</strong> : While
-              the Workout section isn't inherently flawed, the predominant use
-              of white elements contributes to a visually cold page. To enhance
-              the user experience, consider introducing warmer color tones or
-              incorporating visually comforting design elements to create a more
-              inviting and engaging interface.
+              <strong>Solution</strong>: In the proposed design, I employed information hierarchy using iconography to segment elements logically, which enhances user flow. This structured approach ensures smooth, intuitive navigation and promotes a better overall experience.
             </p>
             <p>
               <strong>Key Improvements:</strong>
@@ -209,19 +186,51 @@ export default function HabitusHealth() {
                 <li>
                   <p>
                     <strong>1. </strong>
-                    Visual Harmony Enhancement.
+                    Strategic use of information hierarchy.
                   </p>
                 </li>
                 <li>
                   <p>
                     <strong>2. </strong>
-                    User Experience Optimisation.
+                    Effective iconography for segmentation.
                   </p>
                 </li>
                 <li>
                   <p>
                     <strong>3. </strong>
-                    Design Consistency Consideration.
+                    Optimized user journey and seamless interactions.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article className="sub-content">
+            <h2 className="h2">Aesthetic and Minimalist Design</h2>
+            <p>
+              During the review of the Workout section, we identified that the extensive use of white space created a visually cold experience. To improve the user experience, the design should focus on creating visual balance with warmer tones or inviting elements that promote engagement.
+            </p>
+            <p>
+              <strong>Key Improvements:</strong>
+            </p>
+
+            <div className="list">
+              <ul>
+                <li>
+                  <p>
+                    <strong>1. </strong>
+                    <strong>Introduce Warm Visual Elements</strong>: Soften the interface with subtle colors.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>2. </strong>
+                    <strong>Clarify Section Divisions</strong>: Use imagery strategically to segment content and improve readability.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>3. </strong>
+                    <strong>Enhance Design Consistency</strong>: Maintain uniformity across all elements to create a more cohesive and friendly user interface.
                   </p>
                 </li>
               </ul>
@@ -395,58 +404,123 @@ export default function HabitusHealth() {
               delightful user experience.
             </p>
           </article>
+
+
+
+
+          <article className="sub-content">
+            <h2 className="h2">
+              3D Simulation and Image Processing Workflow at Habitus Health
+            </h2>
+            <p>
+              <strong>1. Creating and Exporting the Simulation in Blender</strong>: To ensure ergonomic accuracy, we developed a 3D avatar in Blender, articulating correct postures for the workplace. Using <strong>Python automation</strong>, multiple cameras were positioned in circular layers to capture various angles effortlessly.ssential step
+              towards establishing a cohesive design language.
+            </p>
+            <img
+              src={img10}
+              alt="3D Simulation and Image Processing Workflow at Habitus Health"
+              className="img1 rounded__6"
+            />
+
+            <p><strong>2. Batch Exporting the Rendered Images</strong>: The rendered images are batch-exported using custom scripts, ensuring high quality and transparency. This automation streamlines the capture process without manual effort.</p>
+
+            <img
+              src={img11}
+              alt="3d Back Isometric"
+              className="img1"
+            />
+
+
+            <img
+              src={img12}
+              alt="3d Front Isometric"
+              className="img1"
+            />
+
+            <p><strong>3. Image Processing with PHP</strong>: Once exported, a PHP web tool resizes, rotates, and optimizes the images to maintain quality and compress the files. This ensures smooth integration across the Habitus Health platform.</p>
+
+            <img
+              src={img13}
+              alt="Processing with PHP"
+              className="img1"
+            />
+
+            <h3 className="h4">The Importance of This Feature for Users</h3>
+            <p>
+            This 3D simulation feature offers an immersive and user-friendly way to educate users on <strong>ergonomically correct postures</strong>. It promotes well-being by guiding posture correction visually, supporting compliance with <strong>occupational health standards</strong>. This enhances the user experience while fostering healthier workplace habits.
+            </p>
+            
+          </article>
+
+          <article className="sub-content">
+            <h2 className="h2">
+            Habitus Health Logo Evolution From 2D to 3D Design
+            </h2>
+            <p>
+            This section showcases the creative process behind the <strong>Habitus Health</strong> logo, transitioning from a flat <strong>2D concept</strong> to a <strong>3D render</strong> using Spline Design. Each step reflects the brand’s commitment to innovation and well-being through modern and organic aesthetics.
+            </p>
+            
+
+            <p><strong>1. 2D Logo Creation</strong></p>
+            <p>The initial design explores soft shapes and colors aligned with the brand's identity.</p>
+
+            <img
+              src={img14}
+              alt="2D Logo Creation"
+              className="img1"
+            />
+
+            <p><strong>2. 3D Modeling and Rendering</strong></p>
+            <p>Using <strong>Spline Design</strong>, the logo gains depth and volume, reinforcing the brand’s digital presence and offering flexibility for interactive applications.</p>
+
+            <video
+              src={video01}
+              className="video-case rounded__6"
+              autoPlay
+              muted
+              loop
+              alt="3D Modeling and Rendering"
+            ></video>
+
+            <h3 className="h4">Why This Design Matters for User Experience</h3>
+            <p>
+            A well-crafted logo fosters <strong>emotional connections</strong> with users and builds trust, aligning with Habitus Health's mission to promote well-being. The 3D version also opens new opportunities for animations and interactive experiences, enhancing user engagement.
+            </p>
+            
+            
+          </article>
+
+
+
+
+
           <article className="sub-content">
             <h2 className="h2">Conclusion</h2>
             <div className="list">
               <ul>
                 <li>
                   <p>
-                    <strong>1. Onboarding Screens</strong>: Developed five
-                    onboarding screens for the Habitus Health app, emphasising
-                    the importance of assessments, personalised insights,
-                    compliance, and health promotion.
+                    <strong>1. Onboarding Screens</strong>: Five screens focused on assessments, insights, and compliance.
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>2. Design System Importance</strong>: Explained the
-                    significance of a Design System at Habitus Health,
-                    addressing visual consistency, design efficiency,
-                    scalability, and enhancing the user experience.
+                    <strong>2. Design System</strong>: Emphasized the importance of a unified visual language.
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>3. Habitus Health Overview</strong>: Provided an
-                    overview of Habitus Health's activities in the market,
-                    highlighting its approach to injury prevention,
-                    compliance-assistive technology, ergonomic assessments,
-                    insights and reporting generation, and maintaining
-                    compliance with health and safety regulations.
+                    <strong>3. User Flow Optimisation</strong>: Improved navigation and consistency for better user satisfaction.
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>4. Mission and Values</strong>: Communicated the
-                    overall mission of Habitus Health, centred on protecting and
-                    improving the health, safety, and well-being of employees.
+                    <strong>4. 3D Simulation</strong>: Enhanced user engagement through ergonomic posture modeling.
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>5. Concise Statement</strong>: We respect your time.
-                    That's why every notification is time-stamped, so you know
-                    precisely when it arrived. For example, "Today at 9:42 AM."
-                    This allows you to prioritise and respond as needed, without
-                    the stress of uncertainty.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>6. Offering Value-Driven Content</strong>: Created a
-                    concise statement to convey Habitus Health's commitment to
-                    empowering organisations in regulatory compliance and
-                    occupational health promotion.
+                    <strong>5. Brand Identity</strong>: Strengthened through logo evolution and consistent visual design.
                   </p>
                 </li>
               </ul>
@@ -464,3 +538,6 @@ export default function HabitusHealth() {
     </motion.div>
   );
 }
+
+
+

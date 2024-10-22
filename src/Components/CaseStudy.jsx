@@ -15,7 +15,7 @@ export default function CaseStudy(props) {
   return (
     <>
       <section className="case-study">
-        {showTitle && <h2 className="h2">Case Study</h2>}
+        {/* {showTitle && <h2 className="h2">Case Study</h2>} */}
         <article>
           <ul>
             <li>
@@ -52,11 +52,14 @@ export default function CaseStudy(props) {
             </li>
           </ul>
           {/* {showTitle && <button>See all projects</button>}  */}
-          {showTitle && (
+          {/* {showTitle && (
             <Link className="btn-case-study" to="/projects">
               See all projects
             </Link>
-          )}
+          )} */}
+          {/* <Link className="btn-case-study" to="/projects">
+              See all projects
+            </Link> */}
         </article>
       </section>
     </>

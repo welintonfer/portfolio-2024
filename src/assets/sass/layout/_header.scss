@@ -1,14 +1,18 @@
+@import ".././abstracts/themes/light/variables";
 header {
   position: fixed;
   width: 100%;
+  transition: all ease-in-out 0.3s;
   .desktop {
     background: transparent;
     width: 100%;
+    transition: all ease-in-out 0.3s;
     .nav-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 30px 10%;
+      transition: all ease-in-out 0.3s;
       .waLogo {
         display: flex;
         align-items: center;

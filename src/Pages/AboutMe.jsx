@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from 'react';
 
 import figma from "../assets/img/skills/figma.svg";
 import psd from "../assets/img/skills/ps.svg";
@@ -14,6 +15,7 @@ import bootstrap5 from "../assets/img/skills/bootstrap5.svg";
 import js from "../assets/img/skills/js.svg";
 import reactjs from "../assets/img/skills/reactjs.svg";
 
+import habitusLogo from "../assets/img/about-me/habitus-logo-cv.svg";
 import eirLogo from "../assets/img/about-me/eir-logo-cv.svg";
 import matrixLogo from "../assets/img/about-me/matrix.svg";
 import pointBlankLogo from "../assets/img/about-me/point-blank.svg";
@@ -140,12 +142,40 @@ const skills = [
 const resume = [
   {
     id: 1,
+    company: "Habitus Health",
+    logo: habitusLogo,
+    job: "Product Media Designer",
+    isPresent: true,
+    start: "Jan 2024",
+    end: "",
+    city: "Cork",
+    country: "Ireland",
+    content:
+      "As a UI/UX Designer at Habitus Health, I lead the design of user-centric digital solutions aligned with workplace well-being. Over the past 9 months, I’ve enhanced the SaaS app with ergonomic simulations, customising 3D models in Blender and automating image workflows using Python and PHP. My work includes maintaining the WordPress ecosystem and integrating AI-powered features like VERA, which monitors users' posture. I combine creative and technical expertise to deliver seamless user experiences, driving both user satisfaction and project success.",
+    isSkills: true,
+    skills: [
+      " UX Research ",
+      " Prototyping ",
+      " Usability ",
+      " Front-End Development ",
+      " Blender ",
+      " Adobe Premiere Pro ",
+      " Figma ",
+      " WordPress Design ",
+      " WordPress Development ",
+      
+    ],
+    isList: false,
+    keyList: [],
+  },
+  {
+    id: 2,
     company: "Eir",
     logo: eirLogo,
     job: "Lead Product Designer",
-    isPresent: true,
+    isPresent: false,
     start: "Jul 2021",
-    end: "",
+    end: "Jan 2024",
     city: "Dublin",
     country: "Ireland",
     content:
@@ -169,7 +199,7 @@ const resume = [
     keyList: [],
   },
   {
-    id: 2,
+    id: 3,
     company: "Matrix Internet",
     logo: matrixLogo,
     job: "UI/UX Designer",
@@ -207,7 +237,7 @@ const resume = [
       "This was an amazing opportunity to take my design skills to the next level and be a part of a dynamic, creative and forward-thinking company!",
   },
   {
-    id: 3,
+    id: 4,
     company: "Point Blank",
     logo: pointBlankLogo,
     job: "Front-end & UI/UX Designer",
@@ -248,7 +278,7 @@ const resume = [
       "This is an exciting opportunity to make a real impact and bring your design skills to the next level in a supportive, collaborative and innovative company!",
   },
   {
-    id: 4,
+    id: 5,
     company: "Docsmart.AI",
     logo: docsmartLogo,
     job: "Front-end & UI/UX Designer",
@@ -279,7 +309,7 @@ const resume = [
     contentTwo: null,
   },
   {
-    id: 5,
+    id: 6,
     company: "Kionux",
     logo: kionuxLogo,
     job: "Front-end & UI/UX Designer",
@@ -309,7 +339,7 @@ const resume = [
     contentTwo: null,
   },
   {
-    id: 6,
+    id: 7,
     company: "Virtualiza São Paulo",
     logo: virtualizaLogo,
     job: "Lead Product Designer",
@@ -327,7 +357,7 @@ const resume = [
     contentTwo: null,
   },
   {
-    id: 7,
+    id: 8,
     company: "Diretriz Feiras e Eventos",
     logo: diretrizLogo,
     job: "Web Designer",
@@ -346,7 +376,7 @@ const resume = [
       "I am proud to have proposed new ideas and web tools, such as company blogs, car loan calculators, and viral promotional newsletters, which are currently under production. To ensure the success of these projects, I worked closely with various technology partners such as Optimost, Omniture, and Google to track, measure, test, and evolve our web tools for higher performance. As a web designer, I am passionate about creating innovative designs that offer users an intuitive experience. I believe in the power of design to shape a brand's identity and drive business growth. I am always excited to take on new challenges and collaborate with others to bring their vision to life.",
   },
   {
-    id: 8,
+    id: 9,
     company: "UniBrasil Centro Universitário",
     logo: unibrasilLogo,
     job: "Web Designer",
@@ -366,7 +396,39 @@ const resume = [
   },
 ];
 
+
+
+function useYearsSince(startDate) {
+  const [years, setYears] = useState(0);
+
+  useEffect(() => {
+    const calculateYears = () => {
+      const today = new Date();
+      const start = new Date(startDate);
+
+      let yearDiff = today.getFullYear() - start.getFullYear();
+
+      // Verifica se já passou 6 de março no ano atual
+      const isBeforeMarch6 = today.getMonth() < 2 || 
+        (today.getMonth() === 2 && today.getDate() < 6);
+        
+      if (isBeforeMarch6) {
+        yearDiff -= 1;
+      }
+
+      setYears(yearDiff);
+    };
+
+    calculateYears();
+  }, [startDate]);
+
+  return years;
+}
+
 export default function AboutMe() {
+  
+  const yearsSince2010 = useYearsSince('2010-03-06');
+
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <ScrollToTopOnMount />
@@ -388,7 +450,7 @@ export default function AboutMe() {
         <h2 className="h2">Profile</h2>
         <p>
           Hi, my name is Wellington Alexander and I'm a UX/UI Designer. With
-          over 13 years of experience, I specialise in complex problem-solving,
+          over {yearsSince2010} years of experience, I specialise in complex problem-solving,
           visual UI design, UX research, and user-centred design principles and
           methodologies.
         </p>

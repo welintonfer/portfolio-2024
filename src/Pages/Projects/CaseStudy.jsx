@@ -31,6 +31,40 @@ export default function CaseStudy() {
             </div>
           </div>
           <ul>
+          <li>
+              <div className="top-bar">
+                <div className="left-buttons">
+                  <div className="red"></div>
+                  <div className="yellow"></div>
+                  <div className="green"></div>
+                </div>
+              </div>
+              <div className="project">
+                <div className="content">
+                  <h3 className="h3">Habitus Health - UX Audit</h3>
+                  <ul className="tags">
+                    <li className="tag">
+                      <span className="font">UX Audit</span>
+                    </li>
+                    <li className="tag">
+                      <span className="font">App</span>
+                    </li>
+                  </ul>
+                  <div className="description">
+                    <p>
+                      {`For an Applications site like the Habitushealth, a good user experience is crucial to attracting new customers and creating loyal advocates for the future!`}
+                    </p>
+                  </div>
+                  <Link to="/projects/habitus-health">Read Case Study</Link>
+                </div>
+                <div className="img-content">
+                  <img src={habitusDesktopCover} alt="Habitus Health" />
+                </div>
+                <div className="img-content-m">
+                  <img src={habitusMobileCover} alt="Habitus Health" />
+                </div>
+              </div>
+            </li>
             <li>
               <div className="top-bar">
                 <div className="left-buttons">
