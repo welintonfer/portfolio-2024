@@ -77,7 +77,7 @@ export default function HabitusHealth() {
         <section className="case-study-single__design-process">
           <h2 className="h2">Design Process</h2>
             <p>
-            The review centered on optimizing the user journey within the application to ensure a smooth and engaging experience. Key areas of focus included:
+              The review centered on optimizing the user journey within the application to ensure a smooth and engaging experience. Key areas of focus included:
             </p>
           <ol className="ol-list">
               <li><strong>Identifying friction points</strong> affecting user flow.</li>

@@ -525,3 +525,7 @@ body {
   background: white;
   box-shadow: #0f0f0f 1px 1px 0px 0px, #0f0f0f 2px 2px 0px 0px, #0f0f0f 3px 3px 0px 0px;
 }
+
+.text-center {
+  text-align: center;
+}

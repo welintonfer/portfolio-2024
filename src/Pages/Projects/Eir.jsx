@@ -64,16 +64,11 @@ export default function Eir() {
         <section className="case-study-single__herocase">
           <img src={logo} alt="eir logo" />
           <div className="overview">
-            <h1 className="h1">Eir Project Evolution with a Focus on User Experience</h1>
+            <h1 className="h1 text-center">Eir Project Evolution with a Focus on User Experience</h1>
             <p>
             As the Lead Product Designer, I led the creation of a seamless onboarding experience that redefined how users engage with the platform. Applying the five phases of Design Thinking empathise, define, ideate, prototype, and test to ensured every step of the user journey was intuitive and efficient.
             </p>
-            <h4>Key outcomes include:</h4>
-              <ul>
-                <li>Flexible registration with email or phone options.</li>
-                <li>Effective notifications offering quick actions and personalization.</li>
-                <li>Simplified migration through a smooth three step process.</li>
-              </ul>
+            
               <p><strong>Using Material UI, I aligned design and development, ensuring consistency across all touchpoints.</strong></p>
           </div>
         </section>
@@ -85,6 +80,11 @@ export default function Eir() {
             stages of this Design Thinking process are as follows:1. Empathise,
             2. Define, 3. Ideate, 4. Prototype, 5. Test.
           </p>
+          <ol className="ol-list">
+              <li>Flexible registration with email or phone options.</li>
+              <li>Effective notifications offering quick actions and personalization.</li>
+              <li>Simplified migration through a smooth three step process.</li>
+          </ol>
           <h3 className="h3">Design Toolkit</h3>
           <ul>
             {skills.map((skill) => (
