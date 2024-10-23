@@ -468,6 +468,21 @@ body {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1704,18 +1719,22 @@ body.no-scroll {
   text-align: center;
 }
 .case-study-single__content .sub-content .list {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: flex-start;
 }
 .case-study-single__content .sub-content .list ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: flex-start;
   list-style: none;
   gap: 24px;
+}
+.case-study-single__content .sub-content .list ul li {
+  font-size: 1.6rem;
 }
 .case-study-single__content .sub-content .mobile-screen-port-col {
   display: flex;

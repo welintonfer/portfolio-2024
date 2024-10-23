@@ -66,7 +66,7 @@ export default function HabitusHealth() {
       <HeaderOne />
       <main className="case-study-single">
         <section className="case-study-single__herocase">
-          <img src={logo} alt="eir logo" />
+          <img src={logo} alt="Habitus Health logo" />
           <div className="overview">
             <h1 className="h1">Habitus Health Project Overview</h1>
             <p>

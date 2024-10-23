@@ -104,6 +104,7 @@ export default function CaseStudy() {
                 </div>
               </div>
             </li>
+            
             <li>
               <div className="top-bar">
                 <div className="left-buttons">
@@ -202,7 +203,7 @@ export default function CaseStudy() {
                       {`Revolutionizing car rentals during the pandemic, I designed an app for Europcar, enabling seamless, contactless bookings and direct car collection. Stay tuned for the upcoming case study!`}
                     </p>
                   </div>
-                  {/* <Link to="/projects/europcar">Read Case Study</Link> */}
+                  <Link to="/projects/europcar">Read Case Study</Link>
                 </div>
                 <div className="img-content">
                   <img src={europcaDesktopCover} alt="Europcar" />
