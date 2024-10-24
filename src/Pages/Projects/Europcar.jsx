@@ -209,3 +209,5 @@ export default function Europcar() {
     </motion.div>
   );
 }
+
+
